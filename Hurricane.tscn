@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cccenqmfu6ftn"]
+
+[ext_resource type="Texture2D" uid="uid://ch1gpe2krj4h" path="res://Hurricane.png" id="1_5drqy"]
+[ext_resource type="Script" uid="uid://bbqhi2og0jj4j" path="res://Hurricane.gd" id="2_xk4fa"]
+
+[node name="Hurricane" type="Sprite2D"]
+scale = Vector2(1, 1)
+texture = ExtResource("1_5drqy")
+script = ExtResource("2_xk4fa")
