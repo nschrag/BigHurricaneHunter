@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://bvdnhyj7xibk7"]
 
 [ext_resource type="Texture2D" uid="uid://bwe1wrmdfxt5b" path="res://Map01.png" id="1_05k6h"]
-[ext_resource type="Script" uid="uid://bot8k8l7vi6ht" path="res://Reticule.gd" id="2_4fct5"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_wtso8"]
 [ext_resource type="PackedScene" uid="uid://cccenqmfu6ftn" path="res://Hurricane.tscn" id="3_nbf6t"]
+[ext_resource type="PackedScene" uid="uid://b88kikoejjfqq" path="res://Reticule.tscn" id="4_wtso8"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3la0o"]
 
@@ -30,21 +30,8 @@ position = Vector2(-90, -95)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Reticule" type="Node2D" parent="." node_paths=PackedStringArray("hurricane_parent")]
-script = ExtResource("2_4fct5")
+[node name="Reticule" parent="." node_paths=PackedStringArray("hurricane_parent") instance=ExtResource("4_wtso8")]
 hurricane_parent = NodePath("../Map01")
-
-[node name="Horizontal" type="Line2D" parent="Reticule"]
-z_index = 1
-points = PackedVector2Array(-320, 0, 320, 0)
-width = 3.0
-default_color = Color(1, 0, 0, 1)
-
-[node name="Vertical" type="Line2D" parent="Reticule"]
-z_index = 1
-points = PackedVector2Array(0, -180, 0, 180)
-width = 3.0
-default_color = Color(1, 0, 0, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(0.8, 0.8)

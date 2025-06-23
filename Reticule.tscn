@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://b88kikoejjfqq"]
+
+[ext_resource type="Script" uid="uid://bot8k8l7vi6ht" path="res://Reticule.gd" id="1_0cdfs"]
+
+[node name="Reticule" type="Node2D"]
+script = ExtResource("1_0cdfs")
+
+[node name="Horizontal" type="Line2D" parent="."]
+z_index = 1
+points = PackedVector2Array(-960, 0, 960, 0)
+width = 3.0
+default_color = Color(1, 0, 0, 1)
+
+[node name="Vertical" type="Line2D" parent="."]
+z_index = 1
+points = PackedVector2Array(0, -540, 0, 540)
+width = 3.0
+default_color = Color(1, 0, 0, 1)
