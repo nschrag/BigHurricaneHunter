@@ -12,7 +12,7 @@ var distance_traveled: float = 0
 var draw_debug = false
 var debug_path: Line2D
 
-func _ready() -> void:
+func configure() -> void:
 	var rect = get_parent().get_rect()
 	p2 = Vector2(rect.position.x, randf_range(rect.position.y, rect.end.y))
 	p0 = position
@@ -28,7 +28,9 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	distance_traveled += delta * speed
 	position = _quadratic_bezier(p0, p1, p2, distance_traveled / approx_distance)
-	debug_path.add_point(position)
+	
+	if debug_path != null:
+		debug_path.add_point(position)
 	
 	if distance_traveled >= approx_distance:
 		queue_free()
