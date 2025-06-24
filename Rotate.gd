@@ -9,4 +9,4 @@ func _process(delta: float) -> void:
 		rotation = 0
 		return
 		
-	rotation += PI * delta
+	rotation += PI * delta * rate

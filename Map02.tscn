@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://gv443d0syekp"]
+[gd_scene load_steps=10 format=3 uid="uid://gv443d0syekp"]
 
 [ext_resource type="Texture2D" uid="uid://b71mlvjnkm0w0" path="res://BigMap.png" id="1_wlo2k"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_acrtu"]
@@ -7,21 +7,29 @@
 [ext_resource type="Script" uid="uid://di76tdib2131s" path="res://Rotate.gd" id="5_s8noj"]
 [ext_resource type="Texture2D" uid="uid://n73lyqd54tiv" path="res://Particle02.png" id="6_s8noj"]
 
+[sub_resource type="Curve" id="Curve_s8noj"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.316177, 1), 0.142148, 0.142148, 0, 0, Vector2(0.75, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_s03es"]
+curve = SubResource("Curve_s8noj")
+
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_6k02l"]
 particle_flag_disable_z = true
-emission_shape = 1
-emission_sphere_radius = 5.0
-angle_min = 360.0
-angle_max = 360.0
-direction = Vector3(1, 1, 0)
-spread = 180.0
+angle_min = 1.07288e-05
+angle_max = 1.07288e-05
+direction = Vector3(0, 1, 0)
+spread = 0.0
+initial_velocity_max = 51.72
 gravity = Vector3(0, 0, 0)
-linear_accel_min = 5.0
-linear_accel_max = 10.0
-radial_accel_min = 31.03
-radial_accel_max = 32.18
+linear_accel_min = -2.23517e-06
+linear_accel_max = -2.23517e-06
+radial_accel_min = -2.23517e-06
+radial_accel_max = 19.54
 tangential_accel_min = -2.23517e-06
 tangential_accel_max = -2.23517e-06
+scale_max = 2.0
+alpha_curve = SubResource("CurveTexture_s03es")
 
 [node name="Node2D" type="Node2D"]
 
@@ -36,26 +44,23 @@ hurricane = ExtResource("3_s8noj")
 hurricane_parent = NodePath("../Map01")
 
 [node name="Node2D" type="Node2D" parent="."]
+visible = false
 position = Vector2(272, -195)
-rotation = 1039.74
+rotation = 1915.2
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="Node2D"]
-position = Vector2(30, 0)
+position = Vector2(-30, 0)
 amount = 64
 texture = ExtResource("6_s8noj")
-lifetime = 1.74
-speed_scale = 0.5
-randomness = 0.4
+lifetime = 3.14
 process_material = SubResource("ParticleProcessMaterial_6k02l")
 
 [node name="GPUParticles2D2" type="GPUParticles2D" parent="Node2D"]
-position = Vector2(-45, 0)
+position = Vector2(-60, 0)
 amount = 64
 texture = ExtResource("6_s8noj")
-lifetime = 1.74
-speed_scale = 0.5
-randomness = 0.4
+lifetime = 3.14
 process_material = SubResource("ParticleProcessMaterial_6k02l")
