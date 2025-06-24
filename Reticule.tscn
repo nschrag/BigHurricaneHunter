@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b88kikoejjfqq"]
+[gd_scene load_steps=3 format=3 uid="uid://b88kikoejjfqq"]
 
 [ext_resource type="Script" uid="uid://bot8k8l7vi6ht" path="res://Reticule.gd" id="1_0cdfs"]
+[ext_resource type="Script" uid="uid://h6u8yibik73r" path="res://ReticuleHash.gd" id="2_d8v40"]
 
 [node name="Reticule" type="Node2D"]
 script = ExtResource("1_0cdfs")
@@ -24,27 +25,42 @@ position = Vector2(-10, 0)
 points = PackedVector2Array(0, -6, 0, 6)
 width = 3.0
 default_color = Color(0.521569, 0, 0, 1)
+script = ExtResource("2_d8v40")
+charge_level = 5
 
 [node name="HHash1" type="Line2D" parent="Center"]
 position = Vector2(-20, 0)
 points = PackedVector2Array(0, -11, 0, 11)
 width = 3.0
 default_color = Color(0.521569, 0, 0, 1)
+script = ExtResource("2_d8v40")
+charge_level = 4
 
 [node name="HHash2" type="Line2D" parent="Center"]
 position = Vector2(-40, 0)
 points = PackedVector2Array(0, -16, 0, 16)
 width = 3.0
 default_color = Color(0.521569, 0, 0, 1)
+script = ExtResource("2_d8v40")
+charge_level = 3
 
 [node name="HHash3" type="Line2D" parent="Center"]
 position = Vector2(-60, 0)
 points = PackedVector2Array(0, -19, 0, 19)
 width = 3.0
 default_color = Color(0.521569, 0, 0, 1)
+script = ExtResource("2_d8v40")
+charge_level = 2
 
 [node name="HHash4" type="Line2D" parent="Center"]
 position = Vector2(-80, 0)
 points = PackedVector2Array(0, -21, 0, 21)
 width = 3.0
 default_color = Color(0.521569, 0, 0, 1)
+script = ExtResource("2_d8v40")
+
+[connection signal="charge_level_changed" from="." to="Center/HHash0" method="_on_charge_level_changed"]
+[connection signal="charge_level_changed" from="." to="Center/HHash1" method="_on_charge_level_changed"]
+[connection signal="charge_level_changed" from="." to="Center/HHash2" method="_on_charge_level_changed"]
+[connection signal="charge_level_changed" from="." to="Center/HHash3" method="_on_charge_level_changed"]
+[connection signal="charge_level_changed" from="." to="Center/HHash4" method="_on_charge_level_changed"]

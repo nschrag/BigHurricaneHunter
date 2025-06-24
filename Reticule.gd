@@ -6,8 +6,11 @@ extends Node2D
 @onready var vertical = $Vertical
 @onready var center = $Center
 
-var charge: float
-var hash_marks: Array[Line2D]
+signal charge_level_changed(value: int)
+
+var charge: float = 0
+var charge_level: int = 0
+@export var max_charge_level: int = 5
 
 func get_speed() -> float:
 	if Input.is_action_pressed("fire"):
@@ -24,10 +27,18 @@ func _process(delta: float) -> void:
 	horizontal.position = Vector2(0, center.position.y)
 	vertical.position = Vector2(center.position.x, 0)
 	
-	charge += delta
+	if Input.is_action_pressed("fire"):
+		charge += delta
+		if charge * max_charge_level > charge_level + 1:
+			charge_level = charge * max_charge_level
+			charge_level_changed.emit(charge_level)
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire"):
+		charge = 0
+		charge_level = 0
+		charge_level_changed.emit(charge_level)
+		
 		for h in hurricane_parent.get_children():
 			if h is Hurricane:
 				var target_pos = Vector2(vertical.position.x, horizontal.position.y)
