@@ -4,6 +4,10 @@ extends Node2D
 @export var hurricane_parent: Node2D
 @onready var horizontal = $Horizontal
 @onready var vertical = $Vertical
+@onready var center = $Center
+
+var charge: float
+var hash_marks: Array[Line2D]
 
 func get_speed() -> float:
 	if Input.is_action_pressed("fire"):
@@ -11,11 +15,16 @@ func get_speed() -> float:
 	else:
 		return speed
 
+#func _ready() -> void:
+	
 func _process(delta: float) -> void:
 	var input_vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	
-	horizontal.position += Vector2(0, input_vector.y * get_speed() * delta)
-	vertical.position += Vector2(input_vector.x * get_speed() * delta, 0)
+	center.position += input_vector * get_speed() * delta
+	horizontal.position = Vector2(0, center.position.y)
+	vertical.position = Vector2(center.position.x, 0)
+	
+	charge += delta
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire"):

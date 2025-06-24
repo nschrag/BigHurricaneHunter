@@ -14,3 +14,7 @@ func _process(delta: float) -> void:
 		h.position = Vector2(randf_range(rect.get_center().x, rect.end.x), 
 								randf_range(rect.position.y, rect.end.y))
 		h.configure()
+
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("ui_cancel"):
+		get_tree().quit()

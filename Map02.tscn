@@ -46,7 +46,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 1915.2
+rotation = 6300.82
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0

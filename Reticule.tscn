@@ -8,11 +8,43 @@ script = ExtResource("1_0cdfs")
 [node name="Horizontal" type="Line2D" parent="."]
 z_index = 1
 points = PackedVector2Array(-960, 0, 960, 0)
-width = 3.0
-default_color = Color(1, 0, 0, 1)
+width = 2.0
+default_color = Color(0.521569, 0, 0, 1)
 
 [node name="Vertical" type="Line2D" parent="."]
 z_index = 1
 points = PackedVector2Array(0, -540, 0, 540)
+width = 2.0
+default_color = Color(0.521569, 0, 0, 1)
+
+[node name="Center" type="Node2D" parent="."]
+
+[node name="HHash0" type="Line2D" parent="Center"]
+position = Vector2(-10, 0)
+points = PackedVector2Array(0, -6, 0, 6)
 width = 3.0
-default_color = Color(1, 0, 0, 1)
+default_color = Color(0.521569, 0, 0, 1)
+
+[node name="HHash1" type="Line2D" parent="Center"]
+position = Vector2(-20, 0)
+points = PackedVector2Array(0, -11, 0, 11)
+width = 3.0
+default_color = Color(0.521569, 0, 0, 1)
+
+[node name="HHash2" type="Line2D" parent="Center"]
+position = Vector2(-40, 0)
+points = PackedVector2Array(0, -16, 0, 16)
+width = 3.0
+default_color = Color(0.521569, 0, 0, 1)
+
+[node name="HHash3" type="Line2D" parent="Center"]
+position = Vector2(-60, 0)
+points = PackedVector2Array(0, -19, 0, 19)
+width = 3.0
+default_color = Color(0.521569, 0, 0, 1)
+
+[node name="HHash4" type="Line2D" parent="Center"]
+position = Vector2(-80, 0)
+points = PackedVector2Array(0, -21, 0, 21)
+width = 3.0
+default_color = Color(0.521569, 0, 0, 1)
