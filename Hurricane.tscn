@@ -1,9 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://cccenqmfu6ftn"]
+[gd_scene load_steps=4 format=3 uid="uid://cccenqmfu6ftn"]
 
 [ext_resource type="Texture2D" uid="uid://ch1gpe2krj4h" path="res://Hurricane.png" id="1_5drqy"]
 [ext_resource type="Script" uid="uid://bbqhi2og0jj4j" path="res://Hurricane.gd" id="2_xk4fa"]
 
-[node name="Hurricane" type="Sprite2D"]
-scale = Vector2(1, 1)
-texture = ExtResource("1_5drqy")
+[sub_resource type="CircleShape2D" id="CircleShape2D_8p0xa"]
+radius = 27.0185
+
+[node name="StaticBody2D" type="AnimatableBody2D"]
+collision_layer = 2
+collision_mask = 0
 script = ExtResource("2_xk4fa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_8p0xa")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_5drqy")

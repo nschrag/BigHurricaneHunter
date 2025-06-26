@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://gv443d0syekp"]
+[gd_scene load_steps=11 format=3 uid="uid://gv443d0syekp"]
 
 [ext_resource type="Texture2D" uid="uid://b71mlvjnkm0w0" path="res://BigMap.png" id="1_wlo2k"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_acrtu"]
 [ext_resource type="PackedScene" uid="uid://cccenqmfu6ftn" path="res://Hurricane.tscn" id="3_s8noj"]
+[ext_resource type="Script" uid="uid://dbfh7n37fvoho" path="res://Land.gd" id="4_6k02l"]
 [ext_resource type="PackedScene" uid="uid://b88kikoejjfqq" path="res://Reticule.tscn" id="4_s03es"]
 [ext_resource type="Script" uid="uid://di76tdib2131s" path="res://Rotate.gd" id="5_s8noj"]
 [ext_resource type="Texture2D" uid="uid://n73lyqd54tiv" path="res://Particle02.png" id="6_s8noj"]
@@ -38,6 +39,14 @@ texture = ExtResource("1_wlo2k")
 script = ExtResource("2_acrtu")
 hurricane = ExtResource("3_s8noj")
 
+[node name="Area2D" type="Area2D" parent="Map01"]
+collision_mask = 2
+monitorable = false
+script = ExtResource("4_6k02l")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Map01/Area2D"]
+polygon = PackedVector2Array(-236, 20, -223, -20, -255, -113, -236, -154, -182, -195, -127, -226, -142, -277, -94, -359, -18, -393, -26, -435, 51, -487, 72, -452, 215, -540, -962, -540, -959, -84, -860, 65, -778, 65, -753, 95, -759, 120, -727, 162, -569, 228, -523, 219, -475, 263, -385, 285, -342, 324, -341, 350, -247, 403, -252, 366, -296, 334, -296, 235, -399, 223, -358, 106, -440, 109, -468, 168, -553, 157, -592, 60, -567, -64, -486, -93, -437, -78, -304, -101, -271, -16)
+
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Reticule" parent="." node_paths=PackedStringArray("hurricane_parent") instance=ExtResource("4_s03es")]
@@ -46,7 +55,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 6300.82
+rotation = 26250.9
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
@@ -64,3 +73,6 @@ amount = 64
 texture = ExtResource("6_s8noj")
 lifetime = 3.14
 process_material = SubResource("ParticleProcessMaterial_6k02l")
+
+[connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
+[connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]

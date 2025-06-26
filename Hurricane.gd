@@ -1,8 +1,9 @@
-extends Sprite2D
+extends PhysicsBody2D
 
 class_name Hurricane
 
 @export var speed: float = 100
+var damage_per_second = 100
 var p0: Vector2
 var p1: Vector2
 var p2: Vector2
@@ -25,9 +26,10 @@ func configure() -> void:
 		debug_path.add_point(position)
 		get_parent().add_child.call_deferred(debug_path)
 	
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	distance_traveled += delta * speed
-	position = _quadratic_bezier(p0, p1, p2, distance_traveled / approx_distance)
+	#position = _quadratic_bezier(p0, p1, p2, distance_traveled / approx_distance)
+	move_and_collide(_quadratic_bezier(p0, p1, p2, distance_traveled / approx_distance) - position)
 	
 	if debug_path != null:
 		debug_path.add_point(position)
