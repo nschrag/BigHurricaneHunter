@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://gv443d0syekp"]
+[gd_scene load_steps=12 format=3 uid="uid://gv443d0syekp"]
 
 [ext_resource type="Texture2D" uid="uid://b71mlvjnkm0w0" path="res://BigMap.png" id="1_wlo2k"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_acrtu"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://b88kikoejjfqq" path="res://Reticule.tscn" id="4_s03es"]
 [ext_resource type="Script" uid="uid://di76tdib2131s" path="res://Rotate.gd" id="5_s8noj"]
 [ext_resource type="Texture2D" uid="uid://n73lyqd54tiv" path="res://Particle02.png" id="6_s8noj"]
+[ext_resource type="Script" uid="uid://cg7t6roe51n7b" path="res://DamageMeter.gd" id="8_6k02l"]
 
 [sub_resource type="Curve" id="Curve_s8noj"]
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.316177, 1), 0.142148, 0.142148, 0, 0, Vector2(0.75, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
@@ -55,7 +56,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 26250.9
+rotation = 149891.0
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
@@ -74,5 +75,19 @@ texture = ExtResource("6_s8noj")
 lifetime = 3.14
 process_material = SubResource("ParticleProcessMaterial_6k02l")
 
+[node name="DamageMeter" type="Node2D" parent="."]
+script = ExtResource("8_6k02l")
+
+[node name="Background" type="Line2D" parent="DamageMeter"]
+points = PackedVector2Array(-915, 470, -915, -470)
+width = 30.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Value" type="Line2D" parent="DamageMeter/Background"]
+points = PackedVector2Array(-915, 470, -915, -470)
+width = 20.0
+default_color = Color(0.858824, 0.580392, 0, 1)
+
 [connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
+[connection signal="total_damage_changed" from="Map01/Area2D" to="DamageMeter" method="_on_total_damage_changed"]

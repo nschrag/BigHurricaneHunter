@@ -1,11 +1,18 @@
 extends Area2D
 
+signal total_damage_changed(damage: int)
+
 var hurricanes: Array[Node2D]
 var damage: float
 
 func _process(delta: float) -> void:
+	var dps = 0
 	for h in hurricanes:
-		damage += delta * h.damage_per_second
+		dps += h.damage_per_second
+		
+	if dps > 0:
+		damage += dps * delta
+		total_damage_changed.emit(damage)
 
 func _on_body_entered(body: Node2D) -> void:
 	hurricanes.append(body)

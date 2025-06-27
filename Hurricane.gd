@@ -3,7 +3,7 @@ extends PhysicsBody2D
 class_name Hurricane
 
 @export var speed: float = 100
-var damage_per_second = 100
+@export var damage_per_second = 1000
 var p0: Vector2
 var p1: Vector2
 var p2: Vector2
