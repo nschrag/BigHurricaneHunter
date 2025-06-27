@@ -17,13 +17,15 @@ var charge_level: int = 0
 @export var full_charge_time: float = 2
 @onready var charge_rate = full_charge_time / max_charge_level
 
-var combo_level: int = 0
+var hit_streak: int = 0
+var bonus_level: int = 0;
 
 func get_speed() -> float:
+	var s = speed + bonus_level * 10
 	if Input.is_action_pressed("fire"):
-		return speed * 0.25
+		return s * 0.25
 	else:
-		return speed
+		return s
 
 #func _ready() -> void:
 	
@@ -53,10 +55,12 @@ func _unhandled_input(event: InputEvent) -> void:
 					print("hit")
 		
 		if success:
-			combo_level += 1
+			hit_streak += 1
+			if hit_streak > max_charge_level:
+				bonus_level += 1
 		else:
-			combo_level = 0
+			hit_streak = 0
 			
-		charge_level = combo_level
+		charge_level = hit_streak
 		charge = charge_level / float(max_charge_level)
 		charge_level_changed.emit(charge_level)
