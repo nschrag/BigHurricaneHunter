@@ -9,12 +9,7 @@ func _process(delta: float) -> void:
 		next_spawn_time = Time.get_ticks_msec() + spawn_rate * 1000
 		
 		var h: Hurricane = hurricane.instantiate()
-		var rect = get_rect()
-		h.position = Vector2(
-			randf_range(rect.get_center().x, rect.end.x), 
-			randf_range(rect.position.y, rect.end.y))
-		add_child(h)
-		h.configure()
+		h.configure(self)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_cancel"):

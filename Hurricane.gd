@@ -13,8 +13,13 @@ var distance_traveled: float = 0
 var draw_debug = false
 var debug_path: Line2D
 
-func configure() -> void:
-	var rect = get_parent().get_rect()
+func configure(parent: Node2D) -> void:
+	var rect = parent.get_rect()
+	position = Vector2(
+		randf_range(rect.get_center().x, rect.end.x), 
+		randf_range(rect.position.y, rect.end.y))
+	parent.add_child(self)
+
 	p2 = Vector2(rect.position.x, randf_range(rect.position.y, rect.end.y))
 	p0 = position
 	p1 = Vector2(randf_range(p0.x, p2.x), randf_range(p0.y, p2.y))
