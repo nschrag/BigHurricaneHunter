@@ -5,9 +5,12 @@ extends Node2D
 @export var hurricane_parent: Node2D
 
 @onready var horizontal = $Horizontal
+@onready var horizontal_left: Line2D = $Horizontal/Horizontal_L
+@onready var horizontal_right: Line2D = $Horizontal/Horizontal_R
 @onready var vertical = $Vertical
+@onready var vertical_up: Line2D = $Vertical/Vertical_U
+@onready var vertical_down: Line2D = $Vertical/Vertical_D
 @onready var center = $Center
-
 
 signal charge_level_changed(value: int)
 
@@ -34,7 +37,11 @@ func _process(delta: float) -> void:
 	
 	center.position += input_vector * get_speed() * delta
 	horizontal.position = Vector2(0, center.position.y)
+	horizontal_left.points[0].x = center.position.x - 10
+	horizontal_right.points[0].x = center.position.x + 10
 	vertical.position = Vector2(center.position.x, 0)
+	vertical_up.points[0].y = center.position.y - 10
+	vertical_down.points[0].y = center.position.y + 10
 	
 	if Input.is_action_pressed("fire"):
 		charge += charge_rate * delta

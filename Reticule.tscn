@@ -6,19 +6,36 @@
 [node name="Reticule" type="Node2D"]
 script = ExtResource("1_0cdfs")
 
-[node name="Horizontal" type="Line2D" parent="."]
+[node name="Horizontal" type="Node2D" parent="."]
+
+[node name="Horizontal_L" type="Line2D" parent="Horizontal"]
 z_index = 1
-points = PackedVector2Array(-960, 0, 960, 0)
+points = PackedVector2Array(-10, 0, -960, 0)
 width = 2.0
 default_color = Color(0.521569, 0, 0, 1)
 
-[node name="Vertical" type="Line2D" parent="."]
+[node name="Horizontal_R" type="Line2D" parent="Horizontal"]
 z_index = 1
-points = PackedVector2Array(0, -540, 0, 540)
+points = PackedVector2Array(10, 0, 960, 0)
+width = 2.0
+default_color = Color(0.521569, 0, 0, 1)
+
+[node name="Vertical" type="Node2D" parent="."]
+
+[node name="Vertical_D" type="Line2D" parent="Vertical"]
+z_index = 1
+points = PackedVector2Array(0, 10, 0, 540)
+width = 2.0
+default_color = Color(0.521569, 0, 0, 1)
+
+[node name="Vertical_U" type="Line2D" parent="Vertical"]
+z_index = 1
+points = PackedVector2Array(0, -10, 0, -540)
 width = 2.0
 default_color = Color(0.521569, 0, 0, 1)
 
 [node name="Center" type="Node2D" parent="."]
+z_index = 1
 
 [node name="HHash0" type="Line2D" parent="Center"]
 position = Vector2(-10, 0)
