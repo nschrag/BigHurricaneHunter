@@ -1,7 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://b88kikoejjfqq"]
+[gd_scene load_steps=6 format=3 uid="uid://b88kikoejjfqq"]
 
 [ext_resource type="Script" uid="uid://bot8k8l7vi6ht" path="res://Reticule.gd" id="1_0cdfs"]
 [ext_resource type="Script" uid="uid://h6u8yibik73r" path="res://ReticuleHash.gd" id="2_d8v40"]
+[ext_resource type="Theme" uid="uid://mj45j2a4x55k" path="res://UITheme.tres" id="3_7l3bn"]
+[ext_resource type="Script" uid="uid://b4uhcucngxbaw" path="res://GameTimer.gd" id="4_fkohd"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_iqx64"]
+font_size = 20
+font_color = Color(0.521569, 0, 0, 1)
 
 [node name="Reticule" type="Node2D"]
 script = ExtResource("1_0cdfs")
@@ -75,6 +81,27 @@ points = PackedVector2Array(0, -21, 0, 21)
 width = 3.0
 default_color = Color(0.521569, 0, 0, 1)
 script = ExtResource("2_d8v40")
+
+[node name="AimSpeed" type="Label" parent="Center"]
+offset_left = -214.0
+offset_top = -31.0
+offset_right = -112.0
+offset_bottom = -1.0
+theme = ExtResource("3_7l3bn")
+text = "300 mph"
+label_settings = SubResource("LabelSettings_iqx64")
+horizontal_alignment = 2
+
+[node name="DateTime" type="Label" parent="Center"]
+offset_left = 110.0
+offset_top = -31.0
+offset_right = 212.0
+offset_bottom = -1.0
+theme = ExtResource("3_7l3bn")
+text = "2033 June 01 23:00"
+label_settings = SubResource("LabelSettings_iqx64")
+horizontal_alignment = 2
+script = ExtResource("4_fkohd")
 
 [connection signal="charge_level_changed" from="." to="Center/HHash0" method="_on_charge_level_changed"]
 [connection signal="charge_level_changed" from="." to="Center/HHash1" method="_on_charge_level_changed"]

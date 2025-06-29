@@ -11,6 +11,7 @@ extends Node2D
 @onready var vertical_up: Line2D = $Vertical/Vertical_U
 @onready var vertical_down: Line2D = $Vertical/Vertical_D
 @onready var center = $Center
+@onready var aim_speed_label = $Center/AimSpeed
 
 signal charge_level_changed(value: int)
 
@@ -65,6 +66,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			hit_streak += 1
 			if hit_streak > max_charge_level:
 				bonus_level += 1
+				aim_speed_label.text = "%d mph" % get_speed()
 		else:
 			hit_streak = 0
 			
