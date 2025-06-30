@@ -37,11 +37,11 @@ scale_max = 2.0
 alpha_curve = SubResource("CurveTexture_s03es")
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("2_acrtu")
+hurricane = ExtResource("3_s8noj")
 
 [node name="Map01" type="Sprite2D" parent="."]
 texture = ExtResource("1_wlo2k")
-script = ExtResource("2_acrtu")
-hurricane = ExtResource("3_s8noj")
 
 [node name="Area2D" type="Area2D" parent="Map01"]
 collision_mask = 2
@@ -59,7 +59,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 253272.0
+rotation = 301315.0
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0

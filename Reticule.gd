@@ -1,5 +1,7 @@
 extends Node2D
 
+class_name Reticule
+
 @export var speed = 300
 
 @export var hurricane_parent: Node2D
@@ -36,19 +38,22 @@ func get_speed() -> float:
 func _process(delta: float) -> void:
 	var input_vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	
-	center.position += input_vector * get_speed() * delta
-	horizontal.position = Vector2(0, center.position.y)
-	horizontal_left.points[0].x = center.position.x - 10
-	horizontal_right.points[0].x = center.position.x + 10
-	vertical.position = Vector2(center.position.x, 0)
-	vertical_up.points[0].y = center.position.y - 10
-	vertical_down.points[0].y = center.position.y + 10
+	set_reticule_position(center.position + input_vector * get_speed() * delta)
 	
 	if Input.is_action_pressed("fire"):
 		charge += charge_rate * delta
 		if charge * max_charge_level > charge_level + 1:
 			charge_level = charge * max_charge_level
 			charge_level_changed.emit(charge_level)
+
+func set_reticule_position(p: Vector2) -> void:
+	center.position = p
+	horizontal.position = Vector2(0, center.position.y)
+	horizontal_left.points[0].x = center.position.x - 10
+	horizontal_right.points[0].x = center.position.x + 10
+	vertical.position = Vector2(center.position.x, 0)
+	vertical_up.points[0].y = center.position.y - 10
+	vertical_down.points[0].y = center.position.y + 10
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire"):
