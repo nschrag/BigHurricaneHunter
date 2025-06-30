@@ -59,7 +59,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 301315.0
+rotation = 319185.0
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
@@ -91,7 +91,7 @@ points = PackedVector2Array(-915, 470, -915, -470)
 width = 20.0
 default_color = Color(0.858824, 0.580392, 0, 1)
 
-[node name="VFlowContainer" type="VFlowContainer" parent="."]
+[node name="HighScoreDisplay" type="VFlowContainer" parent="."]
 offset_left = 376.0
 offset_top = -454.0
 offset_right = 951.0
@@ -100,9 +100,10 @@ theme = ExtResource("9_vv0lo")
 script = ExtResource("10_q5vca")
 entry = ExtResource("11_vv0lo")
 
-[node name="HFlowContainer" parent="VFlowContainer" instance=ExtResource("11_vv0lo")]
+[node name="HFlowContainer" parent="HighScoreDisplay" instance=ExtResource("11_vv0lo")]
 layout_mode = 2
 
 [connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
 [connection signal="total_damage_changed" from="Map01/Area2D" to="DamageMeter" method="_on_total_damage_changed"]
+[connection signal="fire" from="Reticule" to="." method="_on_reticule_fire"]

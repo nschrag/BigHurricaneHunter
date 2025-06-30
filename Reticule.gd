@@ -15,6 +15,7 @@ class_name Reticule
 @onready var center = $Center
 @onready var aim_speed_label = $Center/AimSpeed
 
+signal fire(target_pos:Vector2, fully_charged:bool)
 signal charge_level_changed(value: int)
 
 var charge: float = 0
@@ -26,6 +27,9 @@ var charge_level: int = 0
 var hit_streak: int = 0
 var bonus_level: int = 0;
 
+func is_fully_charged() -> bool:
+	return charge_level >= max_charge_level
+
 func get_speed() -> float:
 	var s = speed + bonus_level * 10
 	if Input.is_action_pressed("fire"):
@@ -35,10 +39,10 @@ func get_speed() -> float:
 
 #func _ready() -> void:
 	
-func _process(delta: float) -> void:
-	var input_vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
-	
-	set_reticule_position(center.position + input_vector * get_speed() * delta)
+func process_input(delta: float, aim: bool) -> void:
+	if aim:
+		var input_vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+		set_reticule_position(center.position + input_vector * get_speed() * delta)
 	
 	if Input.is_action_pressed("fire"):
 		charge += charge_rate * delta
@@ -57,6 +61,8 @@ func set_reticule_position(p: Vector2) -> void:
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire"):
+		fire.emit(Vector2(vertical.position.x, horizontal.position.y), charge_level >= max_charge_level)
+		
 		var success = false
 		for h in hurricane_parent.get_children():
 			if h is Hurricane:
