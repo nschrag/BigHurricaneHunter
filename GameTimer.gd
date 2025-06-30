@@ -1,7 +1,8 @@
 extends Label
 
 @onready var start_timestamp = Time.get_unix_time_from_datetime_dict({ "year":2033, "month":5, "day":1})
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "Sept", "October", "November", "December"]
+const months = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+#const months = ["January", "February", "March", "April", "May", "June", "July", "August", "Sept", "October", "November", "December"]
 
 func _process(delta: float) -> void:
 	var date_time = Time.get_datetime_dict_from_unix_time(start_timestamp + Time.get_ticks_msec() * 100)

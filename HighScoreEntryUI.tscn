@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0tx30da0bbm4"]
+
+[ext_resource type="LabelSettings" uid="uid://b2smq1q877j2o" path="res://ReticuleLabel.tres" id="1_relyq"]
+
+[node name="HFlowContainer" type="VFlowContainer"]
+custom_minimum_size = Vector2(0, 40)
+
+[node name="Rank" type="Label" parent="."]
+layout_mode = 2
+text = "01"
+label_settings = ExtResource("1_relyq")
+
+[node name="Dash" type="Label" parent="."]
+layout_mode = 2
+text = " - "
+label_settings = ExtResource("1_relyq")
+
+[node name="DateTime" type="Label" parent="."]
+custom_minimum_size = Vector2(275, 0)
+layout_mode = 2
+text = "2033 July 04 21:00"
+label_settings = ExtResource("1_relyq")
+
+[node name="PlayerName" type="Label" parent="."]
+layout_mode = 2
+text = "player name"
+label_settings = ExtResource("1_relyq")

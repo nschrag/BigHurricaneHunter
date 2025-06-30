@@ -1,6 +1,6 @@
 [gd_resource type="Theme" load_steps=2 format=3 uid="uid://mj45j2a4x55k"]
 
-[ext_resource type="FontFile" uid="uid://r6jbx4005eih" path="res://Orbitron-Regular.ttf" id="1_cqvjm"]
+[ext_resource type="FontFile" uid="uid://d0tw0p7ctrw3v" path="res://Zector.ttf" id="1_cqvjm"]
 
 [resource]
 default_font = ExtResource("1_cqvjm")
