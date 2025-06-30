@@ -27,9 +27,6 @@ var charge_level: int = 0
 var hit_streak: int = 0
 var bonus_level: int = 0;
 
-func is_fully_charged() -> bool:
-	return charge_level >= max_charge_level
-
 func get_speed() -> float:
 	var s = speed + bonus_level * 10
 	if Input.is_action_pressed("fire"):

@@ -59,7 +59,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 319185.0
+rotation = 326496.0
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
@@ -98,10 +98,7 @@ offset_right = 951.0
 offset_bottom = 197.0
 theme = ExtResource("9_vv0lo")
 script = ExtResource("10_q5vca")
-entry = ExtResource("11_vv0lo")
-
-[node name="HFlowContainer" parent="HighScoreDisplay" instance=ExtResource("11_vv0lo")]
-layout_mode = 2
+entry_ui = ExtResource("11_vv0lo")
 
 [connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
