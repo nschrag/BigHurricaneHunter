@@ -60,7 +60,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 376594.0
+rotation = 387478.0
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
@@ -150,3 +150,4 @@ text = "2033"
 [connection signal="total_damage_changed" from="Map01/Area2D" to="DamageMeter" method="_on_total_damage_changed"]
 [connection signal="fire" from="Reticule" to="." method="_on_reticule_fire"]
 [connection signal="max_damage_sustained" from="DamageMeter" to="." method="_on_max_damage_sustained"]
+[connection signal="high_score_entered" from="HighScoreDisplay" to="." method="_on_high_score_entered"]

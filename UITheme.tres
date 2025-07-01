@@ -1,6 +1,8 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://mj45j2a4x55k"]
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://mj45j2a4x55k"]
 
 [ext_resource type="FontFile" uid="uid://d0tw0p7ctrw3v" path="res://Zector.ttf" id="1_cqvjm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cqvjm"]
 
 [resource]
 default_font = ExtResource("1_cqvjm")
@@ -10,5 +12,6 @@ LineEdit/colors/font_color = Color(0.521569, 0, 0, 1)
 LineEdit/colors/font_outline_color = Color(0.521569, 0, 0, 1)
 LineEdit/colors/font_uneditable_color = Color(0.521569, 0, 0, 1)
 LineEdit/colors/selection_color = Color(0.501961, 0.501961, 0.501961, 0)
-LineEdit/constants/caret_width = 3
+LineEdit/constants/caret_width = 2
 LineEdit/constants/outline_size = 1
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_cqvjm")

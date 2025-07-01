@@ -11,6 +11,7 @@ var game_state = State.BOOT
 var next_spawn_time = 0
 
 func _ready() -> void:
+	#game_timer.duration = 12000
 	goto_state(State.TITLE)
 
 func _process(delta: float) -> void:
@@ -59,9 +60,9 @@ func process_state_play(delta: float) -> void:
 func begin_state_results() -> void:
 	game_timer.stop_timer()
 	var scores = $HighScoreDisplay
+	scores.visible = true
 	if scores.is_high_score(game_timer.duration):
 		scores.insert_high_score(game_timer.duration)
-	$HighScoreDisplay.visible = true
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if game_state == State.TITLE:
@@ -79,3 +80,6 @@ func _on_reticule_fire(target_pos: Vector2, fully_charged: bool) -> void:
 				
 func _on_max_damage_sustained() -> void:
 	goto_state(State.RESULTS)
+
+func _on_high_score_entered() -> void:
+	goto_state(State.TITLE)

@@ -2,6 +2,8 @@ extends VFlowContainer
 
 @export var entry_ui: PackedScene
 
+signal high_score_entered()
+
 var high_scores = [
 	{ "name": "Thunberg", "score":90000 },
 	{ "name": "Thunberg", "score":80000 },
@@ -29,6 +31,7 @@ func refresh_display() -> void:
 		var ui = get_child(i)
 		ui.populate(i + 1, entry["name"], entry["score"])
 		i = i + 1
+		#print(get_viewport().gui_get_focus_owner())
 		
 func is_high_score(score: int) -> bool:
 	return score > high_scores.back()["score"]
@@ -43,4 +46,12 @@ func insert_high_score(score: int) -> void:
 	high_scores.insert(index, { "name": "", "score": score })
 	high_scores.pop_back()
 	refresh_display()
+	
+func update_name(player_name: String) -> void:
+	for entry in high_scores:
+		if entry["name"].is_empty():
+			entry["name"] = player_name
+			break
+			
+	high_score_entered.emit()
 	
