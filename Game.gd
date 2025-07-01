@@ -7,6 +7,7 @@ var game_state = State.BOOT
 @onready var game_timer: GameTimer = $Reticule/Center/DateTime
 
 @export var hurricane: PackedScene
+@export var fire_effect: PackedScene
 @export var spawn_rate: float = 2
 var next_spawn_time = 0
 
@@ -104,6 +105,9 @@ func _on_reticule_fire(target_pos: Vector2, fully_charged: bool) -> void:
 		State.TITLE:
 			if fully_charged:
 				goto_state(State.PLAY)
+		State.PLAY:
+			var vfx = FireEffect.fetch_effect(fire_effect, $Map01)
+			vfx.play_vfx(target_pos)
 				
 func _on_max_damage_sustained() -> void:
 	goto_state(State.RESULTS)

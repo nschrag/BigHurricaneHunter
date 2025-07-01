@@ -69,12 +69,12 @@ func show_text(show_aim_speed: bool, show_timer: bool) -> void:
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire"):
-		fire.emit(Vector2(vertical.position.x, horizontal.position.y), charge_level >= max_charge_level)
+		var target_pos = Vector2(vertical.position.x, horizontal.position.y)
+		fire.emit(target_pos, charge_level >= max_charge_level)
 		
 		var success = false
 		for h in hurricane_parent.get_children():
 			if h is Hurricane:
-				var target_pos = Vector2(vertical.position.x, horizontal.position.y)
 				var distance = (target_pos - h.position).length()
 				if distance <= 10:
 					success = true

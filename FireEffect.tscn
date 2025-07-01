@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://bc55kgg0vh473"]
+
+[ext_resource type="Texture2D" uid="uid://8mxtj05l1e61" path="res://Particle01.png" id="1_nljhp"]
+[ext_resource type="Script" uid="uid://01qmxpmlxpar" path="res://FireEffect.gd" id="1_yhwmv"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_yhwmv"]
+particle_flag_disable_z = true
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 1.0
+emission_ring_radius = 5.0
+emission_ring_inner_radius = 4.0
+emission_ring_cone_angle = 90.0
+direction = Vector3(0, 0, 0)
+gravity = Vector3(0, 0, 0)
+radial_accel_min = 5.0
+radial_accel_max = 5.0
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_yhwmv")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 20
+texture = ExtResource("1_nljhp")
+one_shot = true
+process_material = SubResource("ParticleProcessMaterial_yhwmv")
+
+[connection signal="finished" from="GPUParticles2D" to="." method="_on_vfx_finished"]

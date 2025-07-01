@@ -1,7 +1,8 @@
-[gd_scene load_steps=16 format=3 uid="uid://gv443d0syekp"]
+[gd_scene load_steps=17 format=3 uid="uid://gv443d0syekp"]
 
 [ext_resource type="Texture2D" uid="uid://b71mlvjnkm0w0" path="res://BigMap.png" id="1_wlo2k"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_acrtu"]
+[ext_resource type="PackedScene" uid="uid://bc55kgg0vh473" path="res://FireEffect.tscn" id="3_oxkmi"]
 [ext_resource type="PackedScene" uid="uid://cccenqmfu6ftn" path="res://Hurricane.tscn" id="3_s8noj"]
 [ext_resource type="Script" uid="uid://dbfh7n37fvoho" path="res://Land.gd" id="4_6k02l"]
 [ext_resource type="PackedScene" uid="uid://b88kikoejjfqq" path="res://Reticule.tscn" id="4_s03es"]
@@ -40,6 +41,8 @@ alpha_curve = SubResource("CurveTexture_s03es")
 [node name="Node2D" type="Node2D"]
 script = ExtResource("2_acrtu")
 hurricane = ExtResource("3_s8noj")
+fire_effect = ExtResource("3_oxkmi")
+spawn_rate = null
 
 [node name="Map01" type="Sprite2D" parent="."]
 texture = ExtResource("1_wlo2k")
@@ -60,7 +63,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 387713.0
+rotation = 392491.0
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
