@@ -14,6 +14,7 @@ class_name Reticule
 @onready var vertical_down: Line2D = $Vertical/Vertical_D
 @onready var center = $Center
 @onready var aim_speed_label = $Center/AimSpeed
+@onready var timer_label = $Center/DateTime
 
 signal fire(target_pos:Vector2, fully_charged:bool)
 signal charge_level_changed(value: int)
@@ -61,6 +62,10 @@ func reset_state() -> void:
 	charge = 0
 	charge_level = 0
 	charge_level_changed.emit(charge_level)
+	
+func show_text(show_aim_speed: bool, show_timer: bool) -> void:
+	aim_speed_label.visible = show_aim_speed
+	timer_label.visible = show_timer
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire"):

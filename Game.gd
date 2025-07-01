@@ -48,6 +48,7 @@ func goto_state(state: State) -> void:
 
 func begin_state_title() -> void:
 	reticule.set_reticule_position(Vector2(270, 270))
+	reticule.show_text(false, true)
 	
 func process_state_title(delta: float) -> void:
 	reticule.process_input(delta, false)
@@ -59,6 +60,7 @@ func begin_state_play() -> void:
 	$HighScoreDisplay.visible = false
 	$Map01/Area2D.damage = 0
 	game_timer.start_timer()
+	reticule.show_text(true, true)
 			
 func process_state_play(delta: float) -> void:
 	reticule.process_input(delta, true)
@@ -76,7 +78,13 @@ func begin_state_results() -> void:
 	var scores = $HighScoreDisplay
 	scores.visible = true
 	if scores.is_high_score(game_timer.duration):
-		scores.insert_high_score(game_timer.duration)
+		var index = scores.insert_high_score(game_timer.duration)
+		var y_pos = scores.get_child(index).global_position.y + 40
+		reticule.set_reticule_position(Vector2(270, y_pos))
+		reticule.show_text(false, false)
+	else:
+		reticule.set_reticule_position(Vector2(270, 270))
+		reticule.show_text(false, true)
 		
 func end_state_results() -> void:
 	for child in $Map01.get_children():

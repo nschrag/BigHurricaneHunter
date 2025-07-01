@@ -2,6 +2,8 @@ extends Node
 
 class_name HighScoreEntry
 
+@onready var display: HighScoreDisplay = get_parent()
+
 func populate(rank: int, player_name: String, score: int) -> void:
 	$Rank.text = str(rank)
 	$DateTime.text = GameTimer.format_time(score)
@@ -11,16 +13,15 @@ func populate(rank: int, player_name: String, score: int) -> void:
 		$PlayerName.editable = true
 		$PlayerName.caret_force_displayed = true
 		$PlayerName.call_deferred("grab_focus")
-		$PlayerName.text = current_string + chars[current_char]
+		$PlayerName.text = display.input_player_name + chars[current_char]
 		
 const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ."
 var current_char = 0
-var current_string = ""
 var allow_input_at_time = 0
 
 func update_text() -> void:
-	$PlayerName.text = current_string + chars[current_char]
-	$PlayerName.set_caret_column(current_string.length())
+	$PlayerName.text = display.input_player_name + chars[current_char]
+	$PlayerName.set_caret_column(display.input_player_name.length())
 	
 func _input(event: InputEvent) -> void:
 	if !$PlayerName.editable:
@@ -37,18 +38,18 @@ func _input(event: InputEvent) -> void:
 			update_text()
 			
 	if event.is_action_pressed("fire"):
-		current_string = current_string + chars[current_char]
+		display.input_player_name = display.input_player_name + chars[current_char]
 		update_text()
 	
 	if event.is_action_pressed("ui_text_backspace"):
-		current_string = current_string.substr(0, current_string.length() - 1)
+		display.input_player_name = display.input_player_name.substr(0, display.input_player_name.length() - 1)
 		update_text()
 		
 	if event.is_action_pressed("ui_accept"):
 		$PlayerName.editable = false
 		$PlayerName.caret_force_displayed = false
-		$PlayerName.text = current_string
-		get_parent().update_name(current_string)
+		$PlayerName.text = display.input_player_name
+		display.update_name()
 		
 	if !event.is_action_pressed("ui_cancel"):
 		get_viewport().set_input_as_handled()

@@ -1,5 +1,7 @@
 extends VFlowContainer
 
+class_name HighScoreDisplay
+
 @export var entry_ui: PackedScene
 
 signal high_score_entered()
@@ -16,6 +18,8 @@ var high_scores = [
 	{ "name": "Thunberg", "score":10000 },
 	{ "name": "Thunberg", "score":5000 }
 ]
+
+var input_player_name = ""
 
 func _ready() -> void:
 	var i = 0
@@ -36,7 +40,7 @@ func refresh_display() -> void:
 func is_high_score(score: int) -> bool:
 	return score > high_scores.back()["score"]
 	
-func insert_high_score(score: int) -> void:
+func insert_high_score(score: int) -> int:
 	var index = 0
 	for entry in high_scores:
 		if score > entry["score"]:
@@ -46,11 +50,12 @@ func insert_high_score(score: int) -> void:
 	high_scores.insert(index, { "name": "", "score": score })
 	high_scores.pop_back()
 	refresh_display()
+	return index
 	
-func update_name(player_name: String) -> void:
+func update_name() -> void:
 	for entry in high_scores:
 		if entry["name"].is_empty():
-			entry["name"] = player_name
+			entry["name"] = input_player_name
 			break
 			
 	high_score_entered.emit()
