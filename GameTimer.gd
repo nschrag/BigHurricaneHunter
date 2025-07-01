@@ -14,5 +14,20 @@ static func format_time(real_milliseconds:int) -> String:
 	var date_time = Time.get_datetime_dict_from_unix_time(get_start_timestamp() + game_milliseconds)
 	return "%d %s %02d %02d:%02d" % [date_time["year"], months[date_time["month"]], date_time["day"], date_time["hour"], date_time["minute"]]
 	
+func _ready() -> void:
+	set_process(false)
+
+var milliseconds_since_start: int
+func start_timer() -> void:
+	milliseconds_since_start = Time.get_ticks_msec()
+	set_process(true)
+
+var duration: int
+func stop_timer() -> void:
+	if is_processing():
+		duration = Time.get_ticks_msec() - milliseconds_since_start
+		text = format_time(duration)
+		set_process(false)
+	
 func _process(delta: float) -> void:
-	text = format_time(Time.get_ticks_msec() )
+	text = format_time(Time.get_ticks_msec() - milliseconds_since_start)

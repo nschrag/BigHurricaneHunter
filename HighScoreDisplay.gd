@@ -22,3 +22,25 @@ func _ready() -> void:
 		ui.populate(i + 1, entry["name"], entry["score"])
 		add_child(ui)
 		i = i + 1
+	
+func refresh_display() -> void:
+	var i = 0
+	for entry in high_scores:
+		var ui = get_child(i)
+		ui.populate(i + 1, entry["name"], entry["score"])
+		i = i + 1
+		
+func is_high_score(score: int) -> bool:
+	return score > high_scores.back()["score"]
+	
+func insert_high_score(score: int) -> void:
+	var index = 0
+	for entry in high_scores:
+		if score > entry["score"]:
+			break
+		index = index + 1
+		
+	high_scores.insert(index, { "name": "", "score": score })
+	high_scores.pop_back()
+	refresh_display()
+	

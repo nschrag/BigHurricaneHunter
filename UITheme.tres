@@ -4,4 +4,11 @@
 
 [resource]
 default_font = ExtResource("1_cqvjm")
-default_font_size = 16
+default_font_size = 24
+LineEdit/colors/caret_color = Color(0.521569, 0, 0, 1)
+LineEdit/colors/font_color = Color(0.521569, 0, 0, 1)
+LineEdit/colors/font_outline_color = Color(0.521569, 0, 0, 1)
+LineEdit/colors/font_uneditable_color = Color(0.521569, 0, 0, 1)
+LineEdit/colors/selection_color = Color(0.501961, 0.501961, 0.501961, 0)
+LineEdit/constants/caret_width = 3
+LineEdit/constants/outline_size = 1

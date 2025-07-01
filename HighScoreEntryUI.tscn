@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://c0tx30da0bbm4"]
+[gd_scene load_steps=4 format=3 uid="uid://c0tx30da0bbm4"]
 
 [ext_resource type="LabelSettings" uid="uid://b2smq1q877j2o" path="res://ReticuleLabel.tres" id="1_relyq"]
 [ext_resource type="Script" uid="uid://4gw2uo77l1dd" path="res://HighScoreEntry.gd" id="1_y0tp2"]
+[ext_resource type="Theme" uid="uid://mj45j2a4x55k" path="res://UITheme.tres" id="3_cvmjs"]
 
 [node name="HFlowContainer" type="VFlowContainer"]
 custom_minimum_size = Vector2(0, 40)
@@ -9,21 +10,36 @@ script = ExtResource("1_y0tp2")
 
 [node name="Rank" type="Label" parent="."]
 layout_mode = 2
+size_flags_vertical = 7
+theme = ExtResource("3_cvmjs")
 text = "01"
 label_settings = ExtResource("1_relyq")
+vertical_alignment = 1
 
 [node name="Dash" type="Label" parent="."]
 layout_mode = 2
+size_flags_vertical = 7
+theme = ExtResource("3_cvmjs")
 text = " - "
 label_settings = ExtResource("1_relyq")
+vertical_alignment = 1
 
 [node name="DateTime" type="Label" parent="."]
 custom_minimum_size = Vector2(275, 0)
 layout_mode = 2
+size_flags_vertical = 7
+theme = ExtResource("3_cvmjs")
 text = "2033 July 04 21:00"
 label_settings = ExtResource("1_relyq")
+vertical_alignment = 1
 
-[node name="PlayerName" type="Label" parent="."]
+[node name="PlayerName" type="LineEdit" parent="."]
 layout_mode = 2
-text = "player name"
-label_settings = ExtResource("1_relyq")
+size_flags_vertical = 3
+theme = ExtResource("3_cvmjs")
+text = "computer"
+max_length = 10
+editable = false
+expand_to_text_length = true
+flat = true
+caret_blink = true

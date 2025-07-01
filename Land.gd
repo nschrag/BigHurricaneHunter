@@ -1,6 +1,6 @@
 extends Area2D
 
-signal total_damage_changed(damage: int)
+signal total_damage_changed(damage: float)
 
 var hurricanes: Array[Node2D]
 var damage: float

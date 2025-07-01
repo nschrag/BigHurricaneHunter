@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://gv443d0syekp"]
+[gd_scene load_steps=16 format=3 uid="uid://gv443d0syekp"]
 
 [ext_resource type="Texture2D" uid="uid://b71mlvjnkm0w0" path="res://BigMap.png" id="1_wlo2k"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_acrtu"]
@@ -11,6 +11,7 @@
 [ext_resource type="Theme" uid="uid://mj45j2a4x55k" path="res://UITheme.tres" id="9_vv0lo"]
 [ext_resource type="Script" uid="uid://rricbw2gx26i" path="res://HighScoreDisplay.gd" id="10_q5vca"]
 [ext_resource type="PackedScene" uid="uid://c0tx30da0bbm4" path="res://HighScoreEntryUI.tscn" id="11_vv0lo"]
+[ext_resource type="FontFile" uid="uid://dtj5ub042le60" path="res://RubikGlitch-Regular.ttf" id="12_q5vca"]
 
 [sub_resource type="Curve" id="Curve_s8noj"]
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.316177, 1), 0.142148, 0.142148, 0, 0, Vector2(0.75, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
@@ -59,7 +60,7 @@ hurricane_parent = NodePath("../Map01")
 [node name="Node2D" type="Node2D" parent="."]
 visible = false
 position = Vector2(272, -195)
-rotation = 326496.0
+rotation = 376594.0
 script = ExtResource("5_s8noj")
 active = true
 rate = 1.0
@@ -100,7 +101,52 @@ theme = ExtResource("9_vv0lo")
 script = ExtResource("10_q5vca")
 entry_ui = ExtResource("11_vv0lo")
 
+[node name="Title" type="Node2D" parent="."]
+visible = false
+position = Vector2(-960, -540)
+
+[node name="Label" type="Label" parent="Title"]
+offset_left = 125.0
+offset_top = 178.579
+offset_right = 347.0
+offset_bottom = 330.579
+rotation = -0.364166
+theme_override_fonts/font = ExtResource("12_q5vca")
+theme_override_font_sizes/font_size = 128
+text = "Big"
+
+[node name="Label2" type="Label" parent="Title"]
+offset_left = 86.0
+offset_top = 320.579
+offset_right = 943.0
+offset_bottom = 510.579
+rotation = -0.316309
+theme_override_fonts/font = ExtResource("12_q5vca")
+theme_override_font_sizes/font_size = 160
+text = "Hurricane"
+
+[node name="Label3" type="Label" parent="Title"]
+offset_left = 174.0
+offset_top = 517.579
+offset_right = 859.0
+offset_bottom = 707.579
+rotation = -0.505054
+theme_override_fonts/font = ExtResource("12_q5vca")
+theme_override_font_sizes/font_size = 160
+text = "Hunter"
+
+[node name="Label4" type="Label" parent="Title"]
+offset_left = 197.0
+offset_top = 668.579
+offset_right = 882.0
+offset_bottom = 858.579
+rotation = -0.273306
+theme_override_fonts/font = ExtResource("12_q5vca")
+theme_override_font_sizes/font_size = 160
+text = "2033"
+
 [connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
 [connection signal="total_damage_changed" from="Map01/Area2D" to="DamageMeter" method="_on_total_damage_changed"]
 [connection signal="fire" from="Reticule" to="." method="_on_reticule_fire"]
+[connection signal="max_damage_sustained" from="DamageMeter" to="." method="_on_max_damage_sustained"]
