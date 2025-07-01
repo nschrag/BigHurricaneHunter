@@ -27,6 +27,14 @@ func goto_state(state: State) -> void:
 	if game_state == state:
 		return
 		
+	match game_state:
+		State.TITLE:
+			end_state_title()
+		State.PLAY:
+			end_state_play()
+		State.RESULTS:
+			end_state_results()
+			
 	match state:
 		State.TITLE:
 			game_state = State.TITLE
@@ -38,15 +46,18 @@ func goto_state(state: State) -> void:
 			game_state = State.RESULTS
 			begin_state_results()
 
-			
 func begin_state_title() -> void:
 	reticule.set_reticule_position(Vector2(270, 270))
 	
 func process_state_title(delta: float) -> void:
 	reticule.process_input(delta, false)
 	
+func end_state_title() -> void:
+	pass
+	
 func begin_state_play() -> void:
 	$HighScoreDisplay.visible = false
+	$Map01/Area2D.damage = 0
 	game_timer.start_timer()
 			
 func process_state_play(delta: float) -> void:
@@ -56,6 +67,9 @@ func process_state_play(delta: float) -> void:
 		
 		var h: Hurricane = hurricane.instantiate()
 		h.configure($Map01)
+		
+func end_state_play() -> void:
+	reticule.reset_state()
 
 func begin_state_results() -> void:
 	game_timer.stop_timer()
@@ -63,6 +77,11 @@ func begin_state_results() -> void:
 	scores.visible = true
 	if scores.is_high_score(game_timer.duration):
 		scores.insert_high_score(game_timer.duration)
+		
+func end_state_results() -> void:
+	for child in $Map01.get_children():
+		if child is Hurricane:
+			child.queue_free()
 	
 func _unhandled_input(event: InputEvent) -> void:
 	if game_state == State.TITLE:

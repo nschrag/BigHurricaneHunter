@@ -56,6 +56,12 @@ func set_reticule_position(p: Vector2) -> void:
 	vertical_up.points[0].y = center.position.y - 10
 	vertical_down.points[0].y = center.position.y + 10
 	
+func reset_state() -> void:
+	hit_streak = 0
+	charge = 0
+	charge_level = 0
+	charge_level_changed.emit(charge_level)
+	
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire"):
 		fire.emit(Vector2(vertical.position.x, horizontal.position.y), charge_level >= max_charge_level)
