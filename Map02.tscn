@@ -9,8 +9,8 @@
 [ext_resource type="Script" uid="uid://cg7t6roe51n7b" path="res://DamageMeter.gd" id="8_6k02l"]
 [ext_resource type="Theme" uid="uid://mj45j2a4x55k" path="res://UITheme.tres" id="9_vv0lo"]
 [ext_resource type="Script" uid="uid://rricbw2gx26i" path="res://HighScoreDisplay.gd" id="10_q5vca"]
+[ext_resource type="FontFile" uid="uid://txf4nlc1aein" path="res://AlfaSlabOne-Regular.ttf" id="11_q5vca"]
 [ext_resource type="PackedScene" uid="uid://c0tx30da0bbm4" path="res://HighScoreEntryUI.tscn" id="11_vv0lo"]
-[ext_resource type="FontFile" uid="uid://dtj5ub042le60" path="res://RubikGlitch-Regular.ttf" id="12_q5vca"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("2_acrtu")
@@ -26,6 +26,7 @@ monitorable = false
 script = ExtResource("4_6k02l")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Map01/Area2D"]
+visible = false
 polygon = PackedVector2Array(-236, 20, -223, -20, -255, -113, -236, -154, -182, -195, -127, -226, -142, -277, -94, -359, -18, -393, -26, -435, 51, -487, 72, -452, 215, -540, -962, -540, -959, -84, -860, 65, -778, 65, -753, 95, -759, 120, -727, 162, -569, 228, -523, 219, -475, 263, -385, 285, -342, 324, -341, 350, -247, 403, -252, 366, -296, 334, -296, 235, -399, 223, -358, 106, -440, 109, -468, 168, -553, 157, -592, 60, -567, -64, -486, -93, -437, -78, -304, -101, -271, -16)
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -34,6 +35,7 @@ polygon = PackedVector2Array(-236, 20, -223, -20, -255, -113, -236, -154, -182, 
 hurricane_parent = NodePath("../Map01")
 
 [node name="DamageMeter" type="Node2D" parent="."]
+visible = false
 script = ExtResource("8_6k02l")
 
 [node name="Background" type="Line2D" parent="DamageMeter"]
@@ -56,48 +58,49 @@ script = ExtResource("10_q5vca")
 entry_ui = ExtResource("11_vv0lo")
 
 [node name="Title" type="Node2D" parent="."]
-visible = false
 position = Vector2(-960, -540)
 
 [node name="Label" type="Label" parent="Title"]
-offset_left = 125.0
-offset_top = 178.579
-offset_right = 347.0
-offset_bottom = 330.579
-rotation = -0.364166
-theme_override_fonts/font = ExtResource("12_q5vca")
-theme_override_font_sizes/font_size = 128
-text = "Big"
+offset_left = 276.0
+offset_top = 57.0
+offset_right = 632.0
+offset_bottom = 304.0
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("11_q5vca")
+theme_override_font_sizes/font_size = 150
+text = "BIG"
 
 [node name="Label2" type="Label" parent="Title"]
-offset_left = 86.0
-offset_top = 320.579
-offset_right = 943.0
-offset_bottom = 510.579
-rotation = -0.316309
-theme_override_fonts/font = ExtResource("12_q5vca")
-theme_override_font_sizes/font_size = 160
+offset_left = 78.0
+offset_top = 132.0
+offset_right = 1157.0
+offset_bottom = 407.0
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("11_q5vca")
+theme_override_font_sizes/font_size = 200
 text = "Hurricane"
 
 [node name="Label3" type="Label" parent="Title"]
-offset_left = 174.0
-offset_top = 517.579
-offset_right = 859.0
-offset_bottom = 707.579
-rotation = -0.505054
-theme_override_fonts/font = ExtResource("12_q5vca")
-theme_override_font_sizes/font_size = 160
-text = "Hunter"
+offset_left = 78.0
+offset_top = 334.0
+offset_right = 1131.0
+offset_bottom = 554.0
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("11_q5vca")
+theme_override_font_sizes/font_size = 150
+text = "Hunter  2033"
 
 [node name="Label4" type="Label" parent="Title"]
-offset_left = 197.0
-offset_top = 668.579
-offset_right = 882.0
-offset_bottom = 858.579
-rotation = -0.273306
-theme_override_fonts/font = ExtResource("12_q5vca")
-theme_override_font_sizes/font_size = 160
-text = "2033"
+visible = false
+offset_left = 666.0
+offset_top = 401.0
+offset_right = 1351.0
+offset_bottom = 648.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("11_q5vca")
+theme_override_font_sizes/font_size = 150
+text = "'33"
 
 [connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
