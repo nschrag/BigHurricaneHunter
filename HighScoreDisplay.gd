@@ -7,16 +7,16 @@ class_name HighScoreDisplay
 signal high_score_entered()
 
 var high_scores = [
-	{ "name": "Thunberg", "score":90000 },
-	{ "name": "Thunberg", "score":80000 },
-	{ "name": "Thunberg", "score":70000 },
-	{ "name": "Thunberg", "score":60000 },
-	{ "name": "Thunberg", "score":50000 },
-	{ "name": "Thunberg", "score":40000 },
-	{ "name": "Thunberg", "score":30000 },
-	{ "name": "Thunberg", "score":20000 },
-	{ "name": "Thunberg", "score":10000 },
-	{ "name": "Thunberg", "score":5000 }
+	{ "name": "COMPUTER", "score":90000 },
+	{ "name": "COMPUTER", "score":80000 },
+	{ "name": "COMPUTER", "score":70000 },
+	{ "name": "COMPUTER", "score":60000 },
+	{ "name": "COMPUTER", "score":50000 },
+	{ "name": "COMPUTER", "score":40000 },
+	{ "name": "COMPUTER", "score":30000 },
+	{ "name": "COMPUTER", "score":20000 },
+	{ "name": "COMPUTER", "score":10000 },
+	{ "name": "COMPUTER", "score":5000 }
 ]
 
 var input_player_name = ""
