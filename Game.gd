@@ -48,6 +48,7 @@ func goto_state(state: State) -> void:
 			begin_state_results()
 
 func begin_state_title() -> void:
+	$Title.visible = true
 	reticule.set_reticule_position(Vector2(270, 270))
 	reticule.show_text(false, true)
 	
@@ -55,7 +56,7 @@ func process_state_title(delta: float) -> void:
 	reticule.process_input(delta, false)
 	
 func end_state_title() -> void:
-	pass
+	$Title.visible = false
 	
 func begin_state_play() -> void:
 	$HighScoreDisplay.visible = false

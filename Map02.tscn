@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://gv443d0syekp"]
+[gd_scene load_steps=13 format=3 uid="uid://gv443d0syekp"]
 
 [ext_resource type="Texture2D" uid="uid://b71mlvjnkm0w0" path="res://BigMap.png" id="1_wlo2k"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_acrtu"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" uid="uid://rricbw2gx26i" path="res://HighScoreDisplay.gd" id="10_q5vca"]
 [ext_resource type="FontFile" uid="uid://txf4nlc1aein" path="res://AlfaSlabOne-Regular.ttf" id="11_q5vca"]
 [ext_resource type="PackedScene" uid="uid://c0tx30da0bbm4" path="res://HighScoreEntryUI.tscn" id="11_vv0lo"]
+[ext_resource type="Texture2D" uid="uid://ch1gpe2krj4h" path="res://Hurricane.png" id="12_q5vca"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("2_acrtu")
@@ -90,17 +91,11 @@ theme_override_fonts/font = ExtResource("11_q5vca")
 theme_override_font_sizes/font_size = 150
 text = "Hunter  2033"
 
-[node name="Label4" type="Label" parent="Title"]
-visible = false
-offset_left = 666.0
-offset_top = 401.0
-offset_right = 1351.0
-offset_bottom = 648.0
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 20
-theme_override_fonts/font = ExtResource("11_q5vca")
-theme_override_font_sizes/font_size = 150
-text = "'33"
+[node name="Sprite2D" type="Sprite2D" parent="Title"]
+modulate = Color(0.784314, 0.784314, 0.784314, 1)
+position = Vector2(1229, 809)
+scale = Vector2(4, 4)
+texture = ExtResource("12_q5vca")
 
 [connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
