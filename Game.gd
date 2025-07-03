@@ -12,6 +12,7 @@ var game_state = State.BOOT
 var next_spawn_time = 0
 
 func _ready() -> void:
+	HurricaneNames.load_name_data()
 	#game_timer.duration = 12000
 	goto_state(State.TITLE)
 

@@ -1,0 +1,5435 @@
+{
+  "date": "2025-07-01",
+  "count": 3045,
+  "woman": 399,
+  "total": 16958477.73,
+  "list": [
+    {
+      "rank": 1,
+      "uri": "elon-musk",
+      "name": "Elon Musk",
+      "gender": "m",
+      "age": 54,
+      "networth": 396950.633,
+      "change": {
+        "value": -9539.36,
+        "pct": -2.347,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "us",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Tesla",
+        "SpaceX"
+      ]
+    },
+    {
+      "rank": 2,
+      "uri": "larry-ellison",
+      "name": "Larry Ellison",
+      "gender": "m",
+      "age": 80,
+      "networth": 261864.853,
+      "change": {
+        "value": -331.522,
+        "pct": -0.126,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Oracle"
+      ]
+    },
+    {
+      "rank": 3,
+      "uri": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "gender": "m",
+      "age": 41,
+      "networth": 248155.193,
+      "change": {
+        "value": -6446.848,
+        "pct": -2.532,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 4,
+      "uri": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "gender": "m",
+      "age": 61,
+      "networth": 234397.347,
+      "change": {
+        "value": 973.073,
+        "pct": 0.417,
+        "date": "2025-07-01"
+      },
+      "diff": -2,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Amazon"
+      ]
+    },
+    {
+      "rank": 5,
+      "uri": "warren-buffett",
+      "name": "Warren Buffett",
+      "gender": "m",
+      "age": 94,
+      "networth": 152464.686,
+      "change": {
+        "value": 897.684,
+        "pct": 0.592,
+        "date": "2025-07-01"
+      },
+      "diff": 3,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Berkshire Hathaway"
+      ]
+    },
+    {
+      "rank": 6,
+      "uri": "bernard-arnault",
+      "name": "Bernard Arnault & family",
+      "gender": "m",
+      "age": 76,
+      "networth": 145566.752,
+      "change": {
+        "value": 7161.456,
+        "pct": 5.174,
+        "date": "2025-07-01"
+      },
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "fr",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "LVMH"
+      ]
+    },
+    {
+      "rank": 7,
+      "uri": "larry-page",
+      "name": "Larry Page",
+      "gender": "m",
+      "age": 52,
+      "networth": 145543.392,
+      "change": {
+        "value": -337.76,
+        "pct": -0.232,
+        "date": "2025-07-01"
+      },
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Google"
+      ]
+    },
+    {
+      "rank": 8,
+      "uri": "steve-ballmer",
+      "name": "Steve Ballmer",
+      "gender": "m",
+      "age": 69,
+      "networth": 140051.997,
+      "change": {
+        "value": -1194.304,
+        "pct": -0.846,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Microsoft"
+      ]
+    },
+    {
+      "rank": 9,
+      "uri": "sergey-brin",
+      "name": "Sergey Brin",
+      "gender": "m",
+      "age": 51,
+      "networth": 139164.492,
+      "change": {
+        "value": -316.164,
+        "pct": -0.227,
+        "date": "2025-07-01"
+      },
+      "diff": -2,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Google"
+      ]
+    },
+    {
+      "rank": 10,
+      "uri": "jensen-huang",
+      "name": "Jensen Huang",
+      "gender": "m",
+      "age": 62,
+      "networth": 133611.599,
+      "change": {
+        "value": -4037.537,
+        "pct": -2.933,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Semiconductors"
+      ]
+    },
+    {
+      "rank": 11,
+      "uri": "michael-dell",
+      "name": "Michael Dell",
+      "gender": "m",
+      "age": 60,
+      "networth": 121544.305,
+      "change": {
+        "value": -2508.108,
+        "pct": -2.022,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Dell Technologies"
+      ]
+    },
+    {
+      "rank": 12,
+      "uri": "amancio-ortega",
+      "name": "Amancio Ortega",
+      "gender": "m",
+      "age": 89,
+      "networth": 120910.422,
+      "change": {
+        "value": 616.148,
+        "pct": 0.512,
+        "date": "2025-07-01"
+      },
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "es",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Zara"
+      ]
+    },
+    {
+      "rank": 13,
+      "uri": "bill-gates",
+      "name": "Bill Gates",
+      "gender": "m",
+      "age": 69,
+      "networth": 117019.504,
+      "change": {
+        "value": -327.104,
+        "pct": -0.279,
+        "date": "2025-07-01"
+      },
+      "diff": 3,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Microsoft"
+      ]
+    },
+    {
+      "rank": 14,
+      "uri": "rob-walton",
+      "name": "Rob Walton & family",
+      "gender": "m",
+      "age": 80,
+      "networth": 116273.791,
+      "change": {
+        "value": 431.66,
+        "pct": 0.373,
+        "date": "2025-07-01"
+      },
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 15,
+      "uri": "mukesh-ambani",
+      "name": "Mukesh Ambani",
+      "gender": "m",
+      "age": 68,
+      "networth": 115892.459,
+      "change": {
+        "value": 1567.049,
+        "pct": 1.371,
+        "date": "2025-07-01"
+      },
+      "diff": 3,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 16,
+      "uri": "jim-walton",
+      "name": "Jim Walton & family",
+      "gender": "m",
+      "age": 77,
+      "networth": 115010.4,
+      "change": {
+        "value": 429.427,
+        "pct": 0.375,
+        "date": "2025-07-01"
+      },
+      "diff": -2,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 17,
+      "uri": "alice-walton",
+      "name": "Alice Walton",
+      "gender": "f",
+      "age": 75,
+      "networth": 107154.586,
+      "change": {
+        "value": 420.27,
+        "pct": 0.394,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 18,
+      "uri": "michael-bloomberg",
+      "name": "Michael Bloomberg",
+      "gender": "m",
+      "age": 83,
+      "networth": 104660,
+      "change": null,
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Bloomberg LP"
+      ]
+    },
+    {
+      "rank": 19,
+      "uri": "carlos-slim-helu",
+      "name": "Carlos Slim Helu & family",
+      "gender": "m",
+      "age": 85,
+      "networth": 95944.904,
+      "change": {
+        "value": 335.994,
+        "pct": 0.351,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "mx",
+      "industry": [
+        "telecom"
+      ],
+      "source": [
+        "Telecom"
+      ]
+    },
+    {
+      "rank": 20,
+      "uri": "francoise-bettencourt-meyers",
+      "name": "Francoise Bettencourt Meyers & family",
+      "gender": "f",
+      "age": 71,
+      "networth": 91049.956,
+      "change": {
+        "value": 2281.752,
+        "pct": 2.57,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "fr",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "L'Oréal"
+      ]
+    },
+    {
+      "rank": 21,
+      "uri": "julia-koch",
+      "name": "Julia Koch & family",
+      "gender": "f",
+      "age": 63,
+      "networth": 74204,
+      "change": null,
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Koch",
+        "Inc."
+      ]
+    },
+    {
+      "rank": 22,
+      "uri": "gautam-adani-1",
+      "name": "Gautam Adani",
+      "gender": "m",
+      "age": 63,
+      "networth": 67987.541,
+      "change": {
+        "value": -329.148,
+        "pct": -0.482,
+        "date": "2025-07-01"
+      },
+      "diff": 3,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Infrastructure",
+        "commodities"
+      ]
+    },
+    {
+      "rank": 23,
+      "uri": "charles-koch",
+      "name": "Charles Koch & family",
+      "gender": "m",
+      "age": 89,
+      "networth": 67469,
+      "change": null,
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "us",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Koch",
+        "Inc."
+      ]
+    },
+    {
+      "rank": 24,
+      "uri": "thomas-peterffy",
+      "name": "Thomas Peterffy",
+      "gender": "m",
+      "age": 80,
+      "networth": 66351.002,
+      "change": {
+        "value": 994.121,
+        "pct": 1.521,
+        "date": "2025-07-01"
+      },
+      "diff": 3,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Discount brokerage"
+      ]
+    },
+    {
+      "rank": 25,
+      "uri": "changpeng-zhao",
+      "name": "Changpeng Zhao",
+      "gender": "m",
+      "age": 48,
+      "networth": 65875.193,
+      "change": {
+        "value": 413.777,
+        "pct": 0.632,
+        "date": "2025-07-01"
+      },
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "ca",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Cryptocurrency exchange"
+      ]
+    },
+    {
+      "rank": 26,
+      "uri": "zhang-yiming",
+      "name": "Zhang Yiming",
+      "gender": "m",
+      "age": 41,
+      "networth": 65520,
+      "change": null,
+      "diff": 6,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "TikTok"
+      ]
+    },
+    {
+      "rank": 27,
+      "uri": "zhong-shanshan",
+      "name": "Zhong Shanshan",
+      "gender": "m",
+      "age": 70,
+      "networth": 59815.688,
+      "change": {
+        "value": -99.061,
+        "pct": -0.165,
+        "date": "2025-07-01"
+      },
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "cn",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Beverages",
+        "pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 28,
+      "uri": "jeff-yass",
+      "name": "Jeff Yass",
+      "gender": "m",
+      "age": 66,
+      "networth": 59024,
+      "change": null,
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Trading",
+        "investments"
+      ]
+    },
+    {
+      "rank": 29,
+      "uri": "ma-huateng",
+      "name": "Ma Huateng",
+      "gender": "m",
+      "age": 53,
+      "networth": 52088.711,
+      "change": {
+        "value": 1.378,
+        "pct": 0.003,
+        "date": "2025-07-01"
+      },
+      "diff": 4,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Online games"
+      ]
+    },
+    {
+      "rank": 30,
+      "uri": "dieter-schwarz",
+      "name": "Dieter Schwarz",
+      "gender": "m",
+      "age": 85,
+      "networth": 48903.915,
+      "change": {
+        "value": 350.272,
+        "pct": 0.721,
+        "date": "2025-07-01"
+      },
+      "diff": 31,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Retail"
+      ]
+    },
+    {
+      "rank": 31,
+      "uri": "lei-jun",
+      "name": "Lei Jun",
+      "gender": "m",
+      "age": 55,
+      "networth": 47378.032,
+      "change": {
+        "value": 0.136,
+        "pct": 0,
+        "date": "2025-07-01"
+      },
+      "diff": 38,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Smartphones",
+        "automobiles"
+      ]
+    },
+    {
+      "rank": 32,
+      "uri": "tadashi-yanai",
+      "name": "Tadashi Yanai & family",
+      "gender": "m",
+      "age": 76,
+      "networth": 47294.938,
+      "change": {
+        "value": -1607.385,
+        "pct": -3.287,
+        "date": "2025-07-01"
+      },
+      "diff": -2,
+      "flag": "down",
+      "citizenship": "jp",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Fashion retail"
+      ]
+    },
+    {
+      "rank": 33,
+      "uri": "ken-griffin",
+      "name": "Ken Griffin",
+      "gender": "m",
+      "age": 56,
+      "networth": 46326.014,
+      "change": {
+        "value": 393.645,
+        "pct": 0.857,
+        "date": "2025-07-01"
+      },
+      "diff": -2,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Hedge funds"
+      ]
+    },
+    {
+      "rank": 34,
+      "uri": "stephen-schwarzman",
+      "name": "Stephen Schwarzman",
+      "gender": "m",
+      "age": 78,
+      "networth": 46259.035,
+      "change": {
+        "value": 740.246,
+        "pct": 1.626,
+        "date": "2025-07-01"
+      },
+      "diff": -6,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Investments"
+      ]
+    },
+    {
+      "rank": 35,
+      "uri": "mark-mateschitz",
+      "name": "Mark Mateschitz",
+      "gender": "m",
+      "age": 33,
+      "networth": 43877.216,
+      "change": {
+        "value": 77.122,
+        "pct": 0.176,
+        "date": "2025-07-01"
+      },
+      "diff": 9,
+      "flag": "up",
+      "citizenship": "at",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Red Bull"
+      ]
+    },
+    {
+      "rank": 36,
+      "uri": "william-ding",
+      "name": "William Ding",
+      "gender": "m",
+      "age": 53,
+      "networth": 42541.778,
+      "change": {
+        "value": 58.02,
+        "pct": 0.137,
+        "date": "2025-07-01"
+      },
+      "diff": 24,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Online games"
+      ]
+    },
+    {
+      "rank": 37,
+      "uri": "giovanni-ferrero",
+      "name": "Giovanni Ferrero",
+      "gender": "m",
+      "age": 60,
+      "networth": 41295.228,
+      "change": {
+        "value": 72.583,
+        "pct": 0.176,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "it",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Nutella",
+        "chocolates"
+      ]
+    },
+    {
+      "rank": 38,
+      "uri": "lukas-walton",
+      "name": "Lukas Walton",
+      "gender": "m",
+      "age": 38,
+      "networth": 40013.385,
+      "change": {
+        "value": 127.319,
+        "pct": 0.319,
+        "date": "2025-07-01"
+      },
+      "diff": 5,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 39,
+      "uri": "eduardo-saverin",
+      "name": "Eduardo Saverin",
+      "gender": "m",
+      "age": 43,
+      "networth": 39483.121,
+      "change": {
+        "value": -1008.847,
+        "pct": -2.491,
+        "date": "2025-07-01"
+      },
+      "diff": 15,
+      "flag": "up",
+      "citizenship": "br",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 40,
+      "uri": "klaus-michael-kuehne",
+      "name": "Klaus-Michael Kuehne",
+      "gender": "m",
+      "age": 88,
+      "networth": 39106.905,
+      "change": {
+        "value": 201.369,
+        "pct": 0.518,
+        "date": "2025-07-01"
+      },
+      "diff": 5,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "logistics"
+      ],
+      "source": [
+        "Shipping"
+      ]
+    },
+    {
+      "rank": 41,
+      "uri": "li-ka-shing",
+      "name": "Li Ka-shing",
+      "gender": "m",
+      "age": 97,
+      "networth": 38956.154,
+      "change": {
+        "value": 54.088,
+        "pct": 0.139,
+        "date": "2025-07-01"
+      },
+      "diff": 6,
+      "flag": "up",
+      "citizenship": "hk",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 42,
+      "uri": "masayoshi-son",
+      "name": "Masayoshi Son",
+      "gender": "m",
+      "age": 67,
+      "networth": 38955.561,
+      "change": {
+        "value": 982.586,
+        "pct": 2.588,
+        "date": "2025-07-01"
+      },
+      "diff": 14,
+      "flag": "up",
+      "citizenship": "jp",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Telecom",
+        "Investments"
+      ]
+    },
+    {
+      "rank": 43,
+      "uri": "jacqueline-mars",
+      "name": "Jacqueline Mars",
+      "gender": "f",
+      "age": 85,
+      "networth": 38765.23,
+      "change": {
+        "value": 55.89,
+        "pct": 0.144,
+        "date": "2025-07-01"
+      },
+      "diff": -8,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Candy",
+        "pet food"
+      ]
+    },
+    {
+      "rank": 43,
+      "uri": "john-mars",
+      "name": "John Mars",
+      "gender": "m",
+      "age": 89,
+      "networth": 38765.23,
+      "change": {
+        "value": 55.89,
+        "pct": 0.144,
+        "date": "2025-07-01"
+      },
+      "diff": -8,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Candy",
+        "pet food"
+      ]
+    },
+    {
+      "rank": 45,
+      "uri": "savitri-jindal",
+      "name": "Savitri Jindal & family",
+      "gender": "f",
+      "age": 75,
+      "networth": 37955.684,
+      "change": {
+        "value": 118.115,
+        "pct": 0.312,
+        "date": "2025-07-01"
+      },
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "in",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Steel"
+      ]
+    },
+    {
+      "rank": 46,
+      "uri": "shiv-nadar",
+      "name": "Shiv Nadar",
+      "gender": "m",
+      "age": 79,
+      "networth": 37935.132,
+      "change": {
+        "value": -289.729,
+        "pct": -0.758,
+        "date": "2025-07-01"
+      },
+      "diff": -9,
+      "flag": "down",
+      "citizenship": "in",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Software services"
+      ]
+    },
+    {
+      "rank": 47,
+      "uri": "rafaela-aponte-diamant",
+      "name": "Rafaela Aponte-Diamant",
+      "gender": "f",
+      "age": 80,
+      "networth": 37644.844,
+      "change": {
+        "value": -342.944,
+        "pct": -0.903,
+        "date": "2025-07-01"
+      },
+      "diff": 5,
+      "flag": "up",
+      "citizenship": "ch",
+      "industry": [
+        "logistics"
+      ],
+      "source": [
+        "Shipping"
+      ]
+    },
+    {
+      "rank": 48,
+      "uri": "gianluigi-aponte",
+      "name": "Gianluigi Aponte",
+      "gender": "m",
+      "age": 85,
+      "networth": 37644.841,
+      "change": {
+        "value": -342.944,
+        "pct": -0.903,
+        "date": "2025-07-01"
+      },
+      "diff": 4,
+      "flag": "up",
+      "citizenship": "ch",
+      "industry": [
+        "logistics"
+      ],
+      "source": [
+        "Shipping"
+      ]
+    },
+    {
+      "rank": 49,
+      "uri": "colin-huang",
+      "name": "Colin Huang",
+      "gender": "m",
+      "age": 45,
+      "networth": 37178.474,
+      "change": {
+        "value": 292.522,
+        "pct": 0.793,
+        "date": "2025-07-01"
+      },
+      "diff": 2,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "E-commerce"
+      ]
+    },
+    {
+      "rank": 50,
+      "uri": "robin-zeng",
+      "name": "Robin Zeng",
+      "gender": "m",
+      "age": 56,
+      "networth": 37017.962,
+      "change": {
+        "value": -85.876,
+        "pct": -0.231,
+        "date": "2025-07-01"
+      },
+      "diff": -9,
+      "flag": "down",
+      "citizenship": "hk",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Batteries"
+      ]
+    },
+    {
+      "rank": 51,
+      "uri": "gerard-wertheimer-1",
+      "name": "Gerard Wertheimer",
+      "gender": "m",
+      "age": 74,
+      "networth": 36940.407,
+      "change": {
+        "value": 140.989,
+        "pct": 0.383,
+        "date": "2025-07-01"
+      },
+      "diff": -12,
+      "flag": "down",
+      "citizenship": "fr",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Chanel"
+      ]
+    },
+    {
+      "rank": 52,
+      "uri": "alain-wertheimer",
+      "name": "Alain Wertheimer",
+      "gender": "m",
+      "age": 76,
+      "networth": 36940.402,
+      "change": {
+        "value": 140.989,
+        "pct": 0.383,
+        "date": "2025-07-01"
+      },
+      "diff": -13,
+      "flag": "down",
+      "citizenship": "fr",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Chanel"
+      ]
+    },
+    {
+      "rank": 53,
+      "uri": "andrea-pignataro",
+      "name": "Andrea Pignataro",
+      "gender": "m",
+      "age": 55,
+      "networth": 36883.226,
+      "change": {
+        "value": 64.828,
+        "pct": 0.176,
+        "date": "2025-07-01"
+      },
+      "diff": 20,
+      "flag": "up",
+      "citizenship": "it",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Financial software"
+      ]
+    },
+    {
+      "rank": 54,
+      "uri": "abigail-johnson",
+      "name": "Abigail Johnson",
+      "gender": "f",
+      "age": 63,
+      "networth": 35265.658,
+      "change": {
+        "value": -60.441,
+        "pct": -0.171,
+        "date": "2025-07-01"
+      },
+      "diff": -8,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Fidelity"
+      ]
+    },
+    {
+      "rank": 55,
+      "uri": "reinhold-wuerth",
+      "name": "Reinhold Wuerth & family",
+      "gender": "m",
+      "age": 90,
+      "networth": 34880.581,
+      "change": {
+        "value": -45.361,
+        "pct": -0.13,
+        "date": "2025-07-01"
+      },
+      "diff": -7,
+      "flag": "down",
+      "citizenship": "de",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Fasteners"
+      ]
+    },
+    {
+      "rank": 56,
+      "uri": "german-larrea-mota-velasco",
+      "name": "Germán Larrea Mota Velasco & family",
+      "gender": "m",
+      "age": 71,
+      "networth": 33795.15,
+      "change": {
+        "value": 34.588,
+        "pct": 0.102,
+        "date": "2025-07-01"
+      },
+      "diff": 16,
+      "flag": "up",
+      "citizenship": "mx",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Mining"
+      ]
+    },
+    {
+      "rank": 57,
+      "uri": "phil-knight",
+      "name": "Phil Knight & family",
+      "gender": "m",
+      "age": 87,
+      "networth": 33773.164,
+      "change": {
+        "value": 722.37,
+        "pct": 2.186,
+        "date": "2025-07-01"
+      },
+      "diff": -7,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Nike"
+      ]
+    },
+    {
+      "rank": 58,
+      "uri": "miriam-adelson",
+      "name": "Miriam Adelson & family",
+      "gender": "f",
+      "age": 79,
+      "networth": 33013.436,
+      "change": {
+        "value": 1497.025,
+        "pct": 4.75,
+        "date": "2025-07-01"
+      },
+      "diff": -9,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "gambling-casinos"
+      ],
+      "source": [
+        "Casinos"
+      ]
+    },
+    {
+      "rank": 59,
+      "uri": "mackenzie-scott",
+      "name": "MacKenzie Scott",
+      "gender": "f",
+      "age": 55,
+      "networth": 31123.041,
+      "change": {
+        "value": 148.872,
+        "pct": 0.481,
+        "date": "2025-07-01"
+      },
+      "diff": -4,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Amazon"
+      ]
+    },
+    {
+      "rank": 60,
+      "uri": "thomas-frist-jr",
+      "name": "Thomas Frist Jr & family",
+      "gender": "m",
+      "age": 86,
+      "networth": 31114.889,
+      "change": {
+        "value": 446.185,
+        "pct": 1.455,
+        "date": "2025-07-01"
+      },
+      "diff": 17,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Hospitals"
+      ]
+    },
+    {
+      "rank": 61,
+      "uri": "eyal-ofer",
+      "name": "Eyal Ofer",
+      "gender": "m",
+      "age": 75,
+      "networth": 31060.604,
+      "change": {
+        "value": -180.383,
+        "pct": -0.577,
+        "date": "2025-07-01"
+      },
+      "diff": 13,
+      "flag": "up",
+      "citizenship": "il",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Real estate",
+        "shipping"
+      ]
+    },
+    {
+      "rank": 62,
+      "uri": "marilyn-simons",
+      "name": "Marilyn Simons & family",
+      "gender": "f",
+      "age": 74,
+      "networth": 30989,
+      "change": null,
+      "diff": -5,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Hedge funds"
+      ]
+    },
+    {
+      "rank": 63,
+      "uri": "melinda-french-gates",
+      "name": "Melinda French Gates",
+      "gender": "f",
+      "age": 60,
+      "networth": 30719.163,
+      "change": {
+        "value": 34.516,
+        "pct": 0.112,
+        "date": "2025-07-01"
+      },
+      "diff": -4,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Microsoft",
+        "investments"
+      ]
+    },
+    {
+      "rank": 64,
+      "uri": "gina-rinehart",
+      "name": "Gina Rinehart",
+      "gender": "f",
+      "age": 71,
+      "networth": 30464.749,
+      "change": {
+        "value": 119.322,
+        "pct": 0.393,
+        "date": "2025-07-01"
+      },
+      "diff": -7,
+      "flag": "down",
+      "citizenship": "au",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Mining"
+      ]
+    },
+    {
+      "rank": 65,
+      "uri": "iris-fontbona",
+      "name": "Iris Fontbona & family",
+      "gender": "f",
+      "age": 82,
+      "networth": 28869.563,
+      "change": {
+        "value": 165.73,
+        "pct": 0.577,
+        "date": "2025-07-01"
+      },
+      "diff": 16,
+      "flag": "up",
+      "citizenship": "cl",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Mining"
+      ]
+    },
+    {
+      "rank": 66,
+      "uri": "vagit-alekperov",
+      "name": "Vagit Alekperov",
+      "gender": "m",
+      "age": 74,
+      "networth": 28717.302,
+      "change": {
+        "value": 0.155,
+        "pct": 0.001,
+        "date": "2025-07-01"
+      },
+      "diff": 5,
+      "flag": "up",
+      "citizenship": "ru",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Oil"
+      ]
+    },
+    {
+      "rank": 67,
+      "uri": "alexey-mordashov",
+      "name": "Alexey Mordashov & family",
+      "gender": "m",
+      "age": 59,
+      "networth": 28599.319,
+      "change": {
+        "value": -0.35,
+        "pct": -0.001,
+        "date": "2025-07-01"
+      },
+      "diff": 9,
+      "flag": "up",
+      "citizenship": "ru",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Steel",
+        "investments"
+      ]
+    },
+    {
+      "rank": 68,
+      "uri": "leonid-mikhelson",
+      "name": "Leonid Mikhelson & family",
+      "gender": "m",
+      "age": 69,
+      "networth": 28372.984,
+      "change": null,
+      "diff": -6,
+      "flag": "down",
+      "citizenship": "ru",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Gas",
+        "chemicals"
+      ]
+    },
+    {
+      "rank": 69,
+      "uri": "elaine-marshall",
+      "name": "Elaine Marshall & family",
+      "gender": "f",
+      "age": 82,
+      "networth": 28269,
+      "change": null,
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Koch Inc."
+      ]
+    },
+    {
+      "rank": 70,
+      "uri": "emmanuel-besnier",
+      "name": "Emmanuel Besnier",
+      "gender": "m",
+      "age": 54,
+      "networth": 28086.504,
+      "change": {
+        "value": 32.535,
+        "pct": 0.116,
+        "date": "2025-07-01"
+      },
+      "diff": 14,
+      "flag": "up",
+      "citizenship": "fr",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Cheese"
+      ]
+    },
+    {
+      "rank": 71,
+      "uri": "he-xiangjian",
+      "name": "He Xiangjian & family",
+      "gender": "m",
+      "age": 82,
+      "networth": 27974.27,
+      "change": {
+        "value": -15.033,
+        "pct": -0.054,
+        "date": "2025-07-01"
+      },
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "cn",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Home appliances"
+      ]
+    },
+    {
+      "rank": 72,
+      "uri": "low-tuck-kwong",
+      "name": "Low Tuck Kwong",
+      "gender": "m",
+      "age": 77,
+      "networth": 27624.521,
+      "change": {
+        "value": 79.797,
+        "pct": 0.29,
+        "date": "2025-07-01"
+      },
+      "diff": -5,
+      "flag": "down",
+      "citizenship": "id",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Coal"
+      ]
+    },
+    {
+      "rank": 73,
+      "uri": "vladimir-lisin",
+      "name": "Vladimir Lisin",
+      "gender": "m",
+      "age": 69,
+      "networth": 26488.594,
+      "change": null,
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "ru",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Steel",
+        "transport"
+      ]
+    },
+    {
+      "rank": 74,
+      "uri": "dilip-shanghvi",
+      "name": "Dilip Shanghvi",
+      "gender": "m",
+      "age": 69,
+      "networth": 26224.755,
+      "change": {
+        "value": -231.697,
+        "pct": -0.876,
+        "date": "2025-07-01"
+      },
+      "diff": -16,
+      "flag": "down",
+      "citizenship": "in",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 75,
+      "uri": "jack-ma",
+      "name": "Jack Ma",
+      "gender": "m",
+      "age": 60,
+      "networth": 26186.855,
+      "change": {
+        "value": 50.088,
+        "pct": 0.192,
+        "date": "2025-07-01"
+      },
+      "diff": 8,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "E-commerce"
+      ]
+    },
+    {
+      "rank": 76,
+      "uri": "len-blavatnik",
+      "name": "Len Blavatnik",
+      "gender": "m",
+      "age": 68,
+      "networth": 26147.649,
+      "change": {
+        "value": 430.035,
+        "pct": 1.672,
+        "date": "2025-07-01"
+      },
+      "diff": -11,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Music",
+        "chemicals"
+      ]
+    },
+    {
+      "rank": 77,
+      "uri": "susanne-klatten",
+      "name": "Susanne Klatten",
+      "gender": "f",
+      "age": 63,
+      "networth": 26070.165,
+      "change": {
+        "value": -17.352,
+        "pct": -0.067,
+        "date": "2025-07-01"
+      },
+      "diff": 19,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "BMW",
+        "pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 78,
+      "uri": "prajogo-pangestu",
+      "name": "Prajogo Pangestu",
+      "gender": "m",
+      "age": 81,
+      "networth": 26025.798,
+      "change": {
+        "value": 97.961,
+        "pct": 0.378,
+        "date": "2025-07-01"
+      },
+      "diff": -44,
+      "flag": "down",
+      "citizenship": "id",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Petrochemicals",
+        "energy"
+      ]
+    },
+    {
+      "rank": 79,
+      "uri": "daniel-gilbert",
+      "name": "Daniel Gilbert",
+      "gender": "m",
+      "age": 63,
+      "networth": 25994.389,
+      "change": {
+        "value": 410.537,
+        "pct": 1.605,
+        "date": "2025-07-01"
+      },
+      "diff": 12,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Rocket Mortgage"
+      ]
+    },
+    {
+      "rank": 80,
+      "uri": "henry-samueli",
+      "name": "Henry Samueli",
+      "gender": "m",
+      "age": 70,
+      "networth": 25841.223,
+      "change": {
+        "value": -962.044,
+        "pct": -3.589,
+        "date": "2025-07-01"
+      },
+      "diff": 7,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Semiconductors"
+      ]
+    },
+    {
+      "rank": 81,
+      "uri": "lyndal-stephens-greth",
+      "name": "Lyndal Stephens Greth & family",
+      "gender": "f",
+      "age": 50,
+      "networth": 25796.071,
+      "change": {
+        "value": 291.351,
+        "pct": 1.142,
+        "date": "2025-07-01"
+      },
+      "diff": -18,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Oil & gas"
+      ]
+    },
+    {
+      "rank": 82,
+      "uri": "cyrus-poonawalla",
+      "name": "Cyrus Poonawalla",
+      "gender": "m",
+      "age": 84,
+      "networth": 24839.563,
+      "change": {
+        "value": -94.845,
+        "pct": -0.38,
+        "date": "2025-07-01"
+      },
+      "diff": 7,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Vaccines"
+      ]
+    },
+    {
+      "rank": 83,
+      "uri": "wang-chuanfu",
+      "name": "Wang Chuanfu",
+      "gender": "m",
+      "age": 59,
+      "networth": 24817.063,
+      "change": {
+        "value": -29.734,
+        "pct": -0.12,
+        "date": "2025-07-01"
+      },
+      "diff": 14,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Batteries",
+        "automobiles"
+      ]
+    },
+    {
+      "rank": 84,
+      "uri": "vladimir-potanin",
+      "name": "Vladimir Potanin",
+      "gender": "m",
+      "age": 64,
+      "networth": 24238.962,
+      "change": null,
+      "diff": -4,
+      "flag": "down",
+      "citizenship": "ru",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Metals"
+      ]
+    },
+    {
+      "rank": 85,
+      "uri": "eric-schmidt",
+      "name": "Eric Schmidt",
+      "gender": "m",
+      "age": 70,
+      "networth": 24192.963,
+      "change": {
+        "value": -43.958,
+        "pct": -0.181,
+        "date": "2025-07-01"
+      },
+      "diff": -10,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Google"
+      ]
+    },
+    {
+      "rank": 86,
+      "uri": "rupert-murdoch",
+      "name": "Rupert Murdoch & family",
+      "gender": "m",
+      "age": 94,
+      "networth": 24137.307,
+      "change": {
+        "value": -24.798,
+        "pct": -0.103,
+        "date": "2025-07-01"
+      },
+      "diff": 2,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "media-entertainment"
+      ],
+      "source": [
+        "Newspapers",
+        "TV network"
+      ]
+    },
+    {
+      "rank": 87,
+      "uri": "stefan-quandt",
+      "name": "Stefan Quandt",
+      "gender": "m",
+      "age": 59,
+      "networth": 24111.729,
+      "change": {
+        "value": 11.802,
+        "pct": 0.049,
+        "date": "2025-07-01"
+      },
+      "diff": 6,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "BMW"
+      ]
+    },
+    {
+      "rank": 88,
+      "uri": "idan-ofer",
+      "name": "Idan Ofer",
+      "gender": "m",
+      "age": 69,
+      "networth": 24026.036,
+      "change": {
+        "value": 247.828,
+        "pct": 1.042,
+        "date": "2025-07-01"
+      },
+      "diff": 25,
+      "flag": "up",
+      "citizenship": "il",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Shipping"
+      ]
+    },
+    {
+      "rank": 89,
+      "uri": "aliko-dangote",
+      "name": "Aliko Dangote",
+      "gender": "m",
+      "age": 68,
+      "networth": 23377.951,
+      "change": {
+        "value": -121.048,
+        "pct": -0.515,
+        "date": "2025-07-01"
+      },
+      "diff": 110,
+      "flag": "up",
+      "citizenship": "ng",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Cement",
+        "sugar"
+      ]
+    },
+    {
+      "rank": 90,
+      "uri": "gennady-timchenko",
+      "name": "Gennady Timchenko",
+      "gender": "m",
+      "age": 72,
+      "networth": 23221.673,
+      "change": null,
+      "diff": -11,
+      "flag": "down",
+      "citizenship": "ru",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Oil",
+        "gas"
+      ]
+    },
+    {
+      "rank": 91,
+      "uri": "vicky-safra",
+      "name": "Vicky Safra & family",
+      "gender": "f",
+      "age": 72,
+      "networth": 23024.725,
+      "change": {
+        "value": 209.193,
+        "pct": 0.917,
+        "date": "2025-07-01"
+      },
+      "diff": 20,
+      "flag": "up",
+      "citizenship": "br",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Banking"
+      ]
+    },
+    {
+      "rank": 92,
+      "uri": "ernest-garcia-ii",
+      "name": "Ernest Garcia II",
+      "gender": "m",
+      "age": 68,
+      "networth": 22448.54,
+      "change": {
+        "value": 65.582,
+        "pct": 0.293,
+        "date": "2025-07-01"
+      },
+      "diff": 41,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Used cars"
+      ]
+    },
+    {
+      "rank": 93,
+      "uri": "giancarlo-devasini",
+      "name": "Giancarlo Devasini",
+      "gender": "m",
+      "age": 61,
+      "networth": 22437,
+      "change": null,
+      "diff": 194,
+      "flag": "up",
+      "citizenship": "it",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Cryptocurrency"
+      ]
+    },
+    {
+      "rank": 94,
+      "uri": "kumar-birla",
+      "name": "Kumar Birla",
+      "gender": "m",
+      "age": 58,
+      "networth": 22431.748,
+      "change": {
+        "value": -23.563,
+        "pct": -0.105,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 95,
+      "uri": "diane-hendricks",
+      "name": "Diane Hendricks",
+      "gender": "f",
+      "age": 78,
+      "networth": 22322,
+      "change": null,
+      "diff": -5,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "construction-engineering"
+      ],
+      "source": [
+        "Building supplies"
+      ]
+    },
+    {
+      "rank": 96,
+      "uri": "wang-ning",
+      "name": "Wang Ning & family",
+      "gender": "m",
+      "age": 38,
+      "networth": 22085.13,
+      "change": {
+        "value": -0.282,
+        "pct": -0.001,
+        "date": "2025-07-01"
+      },
+      "diff": 279,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "media-entertainment"
+      ],
+      "source": [
+        "Toys"
+      ]
+    },
+    {
+      "rank": 97,
+      "uri": "r-budi-hartono",
+      "name": "R. Budi Hartono",
+      "gender": "m",
+      "age": 85,
+      "networth": 21984.695,
+      "change": {
+        "value": 14.154,
+        "pct": 0.064,
+        "date": "2025-07-01"
+      },
+      "diff": -19,
+      "flag": "down",
+      "citizenship": "id",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Banking",
+        "tobacco"
+      ]
+    },
+    {
+      "rank": 98,
+      "uri": "david-tepper",
+      "name": "David Tepper",
+      "gender": "m",
+      "age": 67,
+      "networth": 21341,
+      "change": null,
+      "diff": -6,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Hedge funds"
+      ]
+    },
+    {
+      "rank": 99,
+      "uri": "steve-cohen",
+      "name": "Steve Cohen",
+      "gender": "m",
+      "age": 69,
+      "networth": 21289.513,
+      "change": {
+        "value": -0.345,
+        "pct": -0.002,
+        "date": "2025-07-01"
+      },
+      "diff": -5,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Hedge funds"
+      ]
+    },
+    {
+      "rank": 100,
+      "uri": "michael-hartono",
+      "name": "Michael Hartono",
+      "gender": "m",
+      "age": 85,
+      "networth": 21122.614,
+      "change": {
+        "value": 13.599,
+        "pct": 0.064,
+        "date": "2025-07-01"
+      },
+      "diff": -15,
+      "flag": "down",
+      "citizenship": "id",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Banking",
+        "tobacco"
+      ]
+    },
+    {
+      "rank": 101,
+      "uri": "henry-nicholas-iii",
+      "name": "Henry Nicholas III",
+      "gender": "m",
+      "age": 65,
+      "networth": 20926.282,
+      "change": {
+        "value": -731.712,
+        "pct": -3.378,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Semiconductors"
+      ]
+    },
+    {
+      "rank": 102,
+      "uri": "peter-thiel",
+      "name": "Peter Thiel",
+      "gender": "m",
+      "age": 57,
+      "networth": 20922.976,
+      "change": {
+        "value": -565.277,
+        "pct": -2.631,
+        "date": "2025-07-01"
+      },
+      "diff": 47,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Facebook",
+        "investments"
+      ]
+    },
+    {
+      "rank": 103,
+      "uri": "john-menard-jr",
+      "name": "John Menard Jr",
+      "gender": "m",
+      "age": 85,
+      "networth": 20892.106,
+      "change": {
+        "value": -118.659,
+        "pct": -0.565,
+        "date": "2025-07-01"
+      },
+      "diff": -21,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Home improvement stores"
+      ]
+    },
+    {
+      "rank": 104,
+      "uri": "vinod-adani",
+      "name": "Vinod Adani",
+      "gender": "m",
+      "age": 76,
+      "networth": 20867.881,
+      "change": {
+        "value": -0.991,
+        "pct": -0.005,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "cy",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Infrastructure",
+        "commodities"
+      ]
+    },
+    {
+      "rank": 105,
+      "uri": "andreas-von-bechtolsheim",
+      "name": "Andreas von Bechtolsheim & family",
+      "gender": "m",
+      "age": 69,
+      "networth": 20748.519,
+      "change": {
+        "value": -628.036,
+        "pct": -2.938,
+        "date": "2025-07-01"
+      },
+      "diff": -19,
+      "flag": "down",
+      "citizenship": "de",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Google"
+      ]
+    },
+    {
+      "rank": 106,
+      "uri": "harry-triguboff",
+      "name": "Harry Triguboff",
+      "gender": "m",
+      "age": 92,
+      "networth": 19809.948,
+      "change": {
+        "value": 77.589,
+        "pct": 0.393,
+        "date": "2025-07-01"
+      },
+      "diff": 33,
+      "flag": "up",
+      "citizenship": "au",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 107,
+      "uri": "renata-kellnerova",
+      "name": "Renata Kellnerova & family",
+      "gender": "f",
+      "age": 57,
+      "networth": 19660.08,
+      "change": {
+        "value": 30.111,
+        "pct": 0.153,
+        "date": "2025-07-01"
+      },
+      "diff": 5,
+      "flag": "up",
+      "citizenship": "cz",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Finance",
+        "telecommunications"
+      ]
+    },
+    {
+      "rank": 108,
+      "uri": "robert-pera",
+      "name": "Robert Pera",
+      "gender": "m",
+      "age": 47,
+      "networth": 19659.307,
+      "change": {
+        "value": -118.411,
+        "pct": -0.599,
+        "date": "2025-07-01"
+      },
+      "diff": 16,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Wireless networking"
+      ]
+    },
+    {
+      "rank": 109,
+      "uri": "francois-pinault",
+      "name": "François Pinault & family",
+      "gender": "m",
+      "age": 88,
+      "networth": 19614.048,
+      "change": {
+        "value": 719.607,
+        "pct": 3.809,
+        "date": "2025-07-01"
+      },
+      "diff": -11,
+      "flag": "down",
+      "citizenship": "fr",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Luxury goods"
+      ]
+    },
+    {
+      "rank": 110,
+      "uri": "christy-walton",
+      "name": "Christy Walton",
+      "gender": "f",
+      "age": 76,
+      "networth": 19494.431,
+      "change": {
+        "value": 65.511,
+        "pct": 0.337,
+        "date": "2025-07-01"
+      },
+      "diff": -6,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 111,
+      "uri": "radhakishan-damani-1",
+      "name": "Radhakishan Damani",
+      "gender": "m",
+      "age": 70,
+      "networth": 19122.073,
+      "change": {
+        "value": 268.511,
+        "pct": 1.424,
+        "date": "2025-07-01"
+      },
+      "diff": 23,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Retail",
+        "investments"
+      ]
+    },
+    {
+      "rank": 112,
+      "uri": "donald-bren",
+      "name": "Donald Bren",
+      "gender": "m",
+      "age": 93,
+      "networth": 18876.284,
+      "change": null,
+      "diff": -12,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 113,
+      "uri": "lu-xiangyang",
+      "name": "Lu Xiangyang",
+      "gender": "m",
+      "age": 62,
+      "networth": 18872.854,
+      "change": {
+        "value": -22.806,
+        "pct": -0.121,
+        "date": "2025-07-01"
+      },
+      "diff": 15,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Automobiles",
+        "batteries"
+      ]
+    },
+    {
+      "rank": 114,
+      "uri": "takemitsu-takizaki",
+      "name": "Takemitsu Takizaki",
+      "gender": "m",
+      "age": 80,
+      "networth": 18814.196,
+      "change": {
+        "value": -306.101,
+        "pct": -1.601,
+        "date": "2025-07-01"
+      },
+      "diff": -15,
+      "flag": "down",
+      "citizenship": "jp",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Sensors"
+      ]
+    },
+    {
+      "rank": 115,
+      "uri": "michael-platt",
+      "name": "Michael Platt",
+      "gender": "m",
+      "age": 57,
+      "networth": 18800,
+      "change": null,
+      "diff": -8,
+      "flag": "down",
+      "citizenship": "gb",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Hedge funds"
+      ]
+    },
+    {
+      "rank": 116,
+      "uri": "wang-wei",
+      "name": "Wang Wei",
+      "gender": "m",
+      "age": 54,
+      "networth": 18656.364,
+      "change": {
+        "value": 152.017,
+        "pct": 0.822,
+        "date": "2025-07-01"
+      },
+      "diff": 24,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "service"
+      ],
+      "source": [
+        "Package delivery"
+      ]
+    },
+    {
+      "rank": 117,
+      "uri": "rick-cohen",
+      "name": "Rick Cohen & family",
+      "gender": "m",
+      "age": 72,
+      "networth": 18643.372,
+      "change": {
+        "value": 334.768,
+        "pct": 1.828,
+        "date": "2025-07-01"
+      },
+      "diff": 70,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Warehouse automation"
+      ]
+    },
+    {
+      "rank": 118,
+      "uri": "dustin-moskovitz",
+      "name": "Dustin Moskovitz",
+      "gender": "m",
+      "age": 41,
+      "networth": 18534.009,
+      "change": {
+        "value": -389.237,
+        "pct": -2.057,
+        "date": "2025-07-01"
+      },
+      "diff": 3,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 119,
+      "uri": "harold-hamm",
+      "name": "Harold Hamm & family",
+      "gender": "m",
+      "age": 79,
+      "networth": 18500,
+      "change": null,
+      "diff": -17,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Oil & gas"
+      ]
+    },
+    {
+      "rank": 120,
+      "uri": "sherry-brydson",
+      "name": "Sherry Brydson",
+      "gender": "f",
+      "age": 79,
+      "networth": 18472.67,
+      "change": {
+        "value": 39.063,
+        "pct": 0.212,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "new",
+      "citizenship": "ca",
+      "industry": [
+        "media-entertainment"
+      ],
+      "source": [
+        "Thomson Reuters"
+      ]
+    },
+    {
+      "rank": 121,
+      "uri": "kushal-pal-singh",
+      "name": "Kushal Pal Singh",
+      "gender": "m",
+      "age": 93,
+      "networth": 18446.643,
+      "change": {
+        "value": 46.3,
+        "pct": 0.252,
+        "date": "2025-07-01"
+      },
+      "diff": -15,
+      "flag": "down",
+      "citizenship": "in",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 122,
+      "uri": "stefan-persson",
+      "name": "Stefan Persson",
+      "gender": "m",
+      "age": 77,
+      "networth": 18416.603,
+      "change": {
+        "value": 159.767,
+        "pct": 0.875,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "se",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "H&M"
+      ]
+    },
+    {
+      "rank": 123,
+      "uri": "stephen-ross",
+      "name": "Stephen Ross",
+      "gender": "m",
+      "age": 85,
+      "networth": 18412.035,
+      "change": null,
+      "diff": -8,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 124,
+      "uri": "lin-bin",
+      "name": "Lin Bin",
+      "gender": "m",
+      "age": 57,
+      "networth": 18411.867,
+      "change": {
+        "value": -0.222,
+        "pct": -0.001,
+        "date": "2025-07-01"
+      },
+      "diff": 80,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Smartphones"
+      ]
+    },
+    {
+      "rank": 125,
+      "uri": "lakshmi-mittal",
+      "name": "Lakshmi Mittal",
+      "gender": "m",
+      "age": 75,
+      "networth": 18295.517,
+      "change": {
+        "value": -202.117,
+        "pct": -1.093,
+        "date": "2025-07-01"
+      },
+      "diff": 12,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Steel"
+      ]
+    },
+    {
+      "rank": 126,
+      "uri": "jerry-jones",
+      "name": "Jerry Jones & family",
+      "gender": "m",
+      "age": 82,
+      "networth": 18050.148,
+      "change": {
+        "value": -469.468,
+        "pct": -2.535,
+        "date": "2025-07-01"
+      },
+      "diff": -6,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "sports"
+      ],
+      "source": [
+        "Dallas Cowboys"
+      ]
+    },
+    {
+      "rank": 127,
+      "uri": "jorge-paulo-lemann",
+      "name": "Jorge Paulo Lemann & family",
+      "gender": "m",
+      "age": 85,
+      "networth": 18047.987,
+      "change": {
+        "value": 259.3,
+        "pct": 1.458,
+        "date": "2025-07-01"
+      },
+      "diff": 34,
+      "flag": "up",
+      "citizenship": "br",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Beer"
+      ]
+    },
+    {
+      "rank": 128,
+      "uri": "stanley-kroenke",
+      "name": "Stanley Kroenke",
+      "gender": "m",
+      "age": 77,
+      "networth": 17987.5,
+      "change": null,
+      "diff": -12,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "sports"
+      ],
+      "source": [
+        "Sports",
+        "real estate"
+      ]
+    },
+    {
+      "rank": 129,
+      "uri": "zheng-shuliang",
+      "name": "Zheng Shuliang & family",
+      "gender": "f",
+      "age": 79,
+      "networth": 17690.003,
+      "change": {
+        "value": -0.214,
+        "pct": -0.001,
+        "date": "2025-07-01"
+      },
+      "diff": 43,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Aluminum products"
+      ]
+    },
+    {
+      "rank": 130,
+      "uri": "jay-chaudhry",
+      "name": "Jay Chaudhry",
+      "gender": "m",
+      "age": 65,
+      "networth": 17422.88,
+      "change": {
+        "value": -372.944,
+        "pct": -2.096,
+        "date": "2025-07-01"
+      },
+      "diff": 110,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Security software"
+      ]
+    },
+    {
+      "rank": 131,
+      "uri": "andrey-melnichenko",
+      "name": "Andrey Melnichenko & family",
+      "gender": "m",
+      "age": 53,
+      "networth": 17422.475,
+      "change": {
+        "value": -24.01,
+        "pct": -0.138,
+        "date": "2025-07-01"
+      },
+      "diff": -12,
+      "flag": "down",
+      "citizenship": "ru",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Fertilizers",
+        "coal"
+      ]
+    },
+    {
+      "rank": 132,
+      "uri": "james-ratcliffe",
+      "name": "James Ratcliffe",
+      "gender": "m",
+      "age": 72,
+      "networth": 17280.339,
+      "change": {
+        "value": 30.031,
+        "pct": 0.174,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "gb",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Chemicals"
+      ]
+    },
+    {
+      "rank": 133,
+      "uri": "todd-graves",
+      "name": "Todd Graves",
+      "gender": "m",
+      "age": 53,
+      "networth": 17154,
+      "change": null,
+      "diff": 141,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Fast food"
+      ]
+    },
+    {
+      "rank": 134,
+      "uri": "john-fredriksen",
+      "name": "John Fredriksen",
+      "gender": "m",
+      "age": 80,
+      "networth": 17075.467,
+      "change": {
+        "value": -19.887,
+        "pct": -0.116,
+        "date": "2025-07-01"
+      },
+      "diff": 9,
+      "flag": "up",
+      "citizenship": "cy",
+      "industry": [
+        "logistics"
+      ],
+      "source": [
+        "Shipping"
+      ]
+    },
+    {
+      "rank": 135,
+      "uri": "pavel-durov",
+      "name": "Pavel Durov",
+      "gender": "m",
+      "age": 40,
+      "networth": 17070,
+      "change": null,
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "ae",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Messaging app"
+      ]
+    },
+    {
+      "rank": 136,
+      "uri": "huang-shilin",
+      "name": "Huang Shilin",
+      "gender": "m",
+      "age": 58,
+      "networth": 17003.096,
+      "change": {
+        "value": -38.978,
+        "pct": -0.229,
+        "date": "2025-07-01"
+      },
+      "diff": -28,
+      "flag": "down",
+      "citizenship": "cn",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Batteries"
+      ]
+    },
+    {
+      "rank": 137,
+      "uri": "manuel-villar",
+      "name": "Manuel Villar",
+      "gender": "m",
+      "age": 75,
+      "networth": 16965.606,
+      "change": {
+        "value": 69.188,
+        "pct": 0.409,
+        "date": "2025-07-01"
+      },
+      "diff": -34,
+      "flag": "down",
+      "citizenship": "ph",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 138,
+      "uri": "alisher-usmanov",
+      "name": "Alisher Usmanov",
+      "gender": "m",
+      "age": 71,
+      "networth": 16962.315,
+      "change": {
+        "value": -0.04,
+        "pct": 0,
+        "date": "2025-07-01"
+      },
+      "diff": 16,
+      "flag": "up",
+      "citizenship": "ru",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Steel",
+        "telecom",
+        "investments"
+      ]
+    },
+    {
+      "rank": 139,
+      "uri": "jan-koum",
+      "name": "Jan Koum",
+      "gender": "m",
+      "age": 49,
+      "networth": 16886.67,
+      "change": {
+        "value": -78.512,
+        "pct": -0.463,
+        "date": "2025-07-01"
+      },
+      "diff": -17,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "WhatsApp"
+      ]
+    },
+    {
+      "rank": 140,
+      "uri": "beate-heister",
+      "name": "Beate Heister",
+      "gender": "f",
+      "age": 74,
+      "networth": 16871.3,
+      "change": {
+        "value": 36.836,
+        "pct": 0.219,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Supermarkets"
+      ]
+    },
+    {
+      "rank": 140,
+      "uri": "karl-albrecht-jr",
+      "name": "Karl Albrecht Jr. & family",
+      "gender": "m",
+      "age": 77,
+      "networth": 16871.3,
+      "change": {
+        "value": 36.836,
+        "pct": 0.219,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Supermarkets"
+      ]
+    },
+    {
+      "rank": 142,
+      "uri": "philip-anschutz",
+      "name": "Philip Anschutz",
+      "gender": "m",
+      "age": 85,
+      "networth": 16869,
+      "change": null,
+      "diff": -25,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Energy",
+        "sports",
+        "entertainment"
+      ]
+    },
+    {
+      "rank": 143,
+      "uri": "theo-albrecht-jr",
+      "name": "Theo Albrecht Jr & family",
+      "gender": "m",
+      "age": 74,
+      "networth": 16855.913,
+      "change": {
+        "value": 36.285,
+        "pct": 0.216,
+        "date": "2025-07-01"
+      },
+      "diff": 19,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Aldi",
+        "Trader Joe's"
+      ]
+    },
+    {
+      "rank": 144,
+      "uri": "qin-yinglin",
+      "name": "Qin Yinglin",
+      "gender": "m",
+      "age": 60,
+      "networth": 16653.605,
+      "change": {
+        "value": 0.233,
+        "pct": 0.001,
+        "date": "2025-07-01"
+      },
+      "diff": 2,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Pig breeding"
+      ]
+    },
+    {
+      "rank": 145,
+      "uri": "prince-alwaleed-bin-talal-alsaud",
+      "name": "Prince Alwaleed Bin Talal Alsaud",
+      "gender": "m",
+      "age": 70,
+      "networth": 16487.809,
+      "change": {
+        "value": 1.458,
+        "pct": 0.009,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "new",
+      "citizenship": "sa",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "investments"
+      ]
+    },
+    {
+      "rank": 146,
+      "uri": "suleiman-kerimov-family",
+      "name": "Suleiman Kerimov & family",
+      "gender": "m",
+      "age": 59,
+      "networth": 16432.605,
+      "change": null,
+      "diff": 84,
+      "flag": "up",
+      "citizenship": "ru",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Gold"
+      ]
+    },
+    {
+      "rank": 147,
+      "uri": "hasso-plattner",
+      "name": "Hasso Plattner & family",
+      "gender": "m",
+      "age": 81,
+      "networth": 16387.183,
+      "change": {
+        "value": -83.274,
+        "pct": -0.506,
+        "date": "2025-07-01"
+      },
+      "diff": 13,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Software"
+      ]
+    },
+    {
+      "rank": 148,
+      "uri": "ludwig-merckle",
+      "name": "Ludwig Merckle",
+      "gender": "m",
+      "age": 60,
+      "networth": 16223.903,
+      "change": {
+        "value": -406.125,
+        "pct": -2.442,
+        "date": "2025-07-01"
+      },
+      "diff": 88,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 149,
+      "uri": "george-roberts",
+      "name": "George Roberts",
+      "gender": "m",
+      "age": 81,
+      "networth": 16222.144,
+      "change": {
+        "value": -49.917,
+        "pct": -0.307,
+        "date": "2025-07-01"
+      },
+      "diff": -40,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Private equity"
+      ]
+    },
+    {
+      "rank": 150,
+      "uri": "lin-muqin",
+      "name": "Lin Muqin & family",
+      "gender": "m",
+      "age": 61,
+      "networth": 15824.146,
+      "change": {
+        "value": 372.869,
+        "pct": 2.413,
+        "date": "2025-07-01"
+      },
+      "diff": 38,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Beverages"
+      ]
+    },
+    {
+      "rank": 151,
+      "uri": "brad-jacobs",
+      "name": "Brad Jacobs",
+      "gender": "m",
+      "age": 69,
+      "networth": 15753.118,
+      "change": {
+        "value": -132.362,
+        "pct": -0.833,
+        "date": "2025-07-01"
+      },
+      "diff": 125,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "logistics"
+      ],
+      "source": [
+        "Logistics"
+      ]
+    },
+    {
+      "rank": 152,
+      "uri": "zhong-huijuan",
+      "name": "Zhong Huijuan",
+      "gender": "f",
+      "age": 64,
+      "networth": 15735.752,
+      "change": {
+        "value": 8.019,
+        "pct": 0.051,
+        "date": "2025-07-01"
+      },
+      "diff": 115,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 153,
+      "uri": "nancy-walton-laurie",
+      "name": "Nancy Walton Laurie",
+      "gender": "f",
+      "age": 74,
+      "networth": 15671.397,
+      "change": {
+        "value": 66.77,
+        "pct": 0.428,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "unchanged",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 154,
+      "uri": "dhanin-chearavanont",
+      "name": "Dhanin Chearavanont",
+      "gender": "m",
+      "age": 86,
+      "networth": 15665.656,
+      "change": {
+        "value": 12.236,
+        "pct": 0.078,
+        "date": "2025-07-01"
+      },
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "th",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 155,
+      "uri": "uday-kotak",
+      "name": "Uday Kotak",
+      "gender": "m",
+      "age": 66,
+      "networth": 15645.331,
+      "change": {
+        "value": 70.898,
+        "pct": 0.455,
+        "date": "2025-07-01"
+      },
+      "diff": 11,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Banking"
+      ]
+    },
+    {
+      "rank": 156,
+      "uri": "zhang-zhidong",
+      "name": "Zhang Zhidong",
+      "gender": "m",
+      "age": 53,
+      "networth": 15624.292,
+      "change": {
+        "value": 0.483,
+        "pct": 0.003,
+        "date": "2025-07-01"
+      },
+      "diff": 7,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Online games"
+      ]
+    },
+    {
+      "rank": 157,
+      "uri": "eric-li",
+      "name": "Eric Li",
+      "gender": "m",
+      "age": 62,
+      "networth": 15621.408,
+      "change": {
+        "value": 6.403,
+        "pct": 0.041,
+        "date": "2025-07-01"
+      },
+      "diff": -27,
+      "flag": "down",
+      "citizenship": "cn",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Automobiles"
+      ]
+    },
+    {
+      "rank": 158,
+      "uri": "eric-smidt",
+      "name": "Eric Smidt",
+      "gender": "m",
+      "age": 65,
+      "networth": 15600,
+      "change": null,
+      "diff": -23,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Hardware stores"
+      ]
+    },
+    {
+      "rank": 159,
+      "uri": "leon-black",
+      "name": "Leon Black",
+      "gender": "m",
+      "age": 73,
+      "networth": 15489.22,
+      "change": {
+        "value": -15.687,
+        "pct": -0.101,
+        "date": "2025-07-01"
+      },
+      "diff": -45,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Private equity"
+      ]
+    },
+    {
+      "rank": 160,
+      "uri": "james-dyson",
+      "name": "James Dyson",
+      "gender": "m",
+      "age": 78,
+      "networth": 15467.043,
+      "change": {
+        "value": -12.728,
+        "pct": -0.082,
+        "date": "2025-07-01"
+      },
+      "diff": 9,
+      "flag": "up",
+      "citizenship": "gb",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Vacuums"
+      ]
+    },
+    {
+      "rank": 161,
+      "uri": "george-kaiser",
+      "name": "George Kaiser",
+      "gender": "m",
+      "age": 82,
+      "networth": 15447.199,
+      "change": {
+        "value": 59.348,
+        "pct": 0.386,
+        "date": "2025-07-01"
+      },
+      "diff": -32,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Oil & gas",
+        "banking"
+      ]
+    },
+    {
+      "rank": 162,
+      "uri": "martin-lorentzon",
+      "name": "Martin Lorentzon",
+      "gender": "m",
+      "age": 56,
+      "networth": 15245.054,
+      "change": {
+        "value": -900.62,
+        "pct": -5.578,
+        "date": "2025-07-01"
+      },
+      "diff": 92,
+      "flag": "up",
+      "citizenship": "se",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Spotify"
+      ]
+    },
+    {
+      "rank": 163,
+      "uri": "donald-newhouse",
+      "name": "Donald Newhouse",
+      "gender": "m",
+      "age": 95,
+      "networth": 15119.54,
+      "change": {
+        "value": 76.853,
+        "pct": 0.511,
+        "date": "2025-07-01"
+      },
+      "diff": -11,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "media-entertainment"
+      ],
+      "source": [
+        "Media"
+      ]
+    },
+    {
+      "rank": 164,
+      "uri": "david-cheriton",
+      "name": "David Cheriton",
+      "gender": "m",
+      "age": 74,
+      "networth": 15064.278,
+      "change": {
+        "value": -162.892,
+        "pct": -1.07,
+        "date": "2025-07-01"
+      },
+      "diff": -46,
+      "flag": "down",
+      "citizenship": "ca",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Google"
+      ]
+    },
+    {
+      "rank": 165,
+      "uri": "mikhail-fridman",
+      "name": "Mikhail Fridman",
+      "gender": "m",
+      "age": 61,
+      "networth": 15012.332,
+      "change": {
+        "value": -14.916,
+        "pct": -0.099,
+        "date": "2025-07-01"
+      },
+      "diff": -1,
+      "flag": "down",
+      "citizenship": "ru",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Oil",
+        "banking",
+        "telecom"
+      ]
+    },
+    {
+      "rank": 166,
+      "uri": "sunil-mittal-1",
+      "name": "Sunil Mittal",
+      "gender": "m",
+      "age": 67,
+      "networth": 14899.124,
+      "change": {
+        "value": 11.803,
+        "pct": 0.079,
+        "date": "2025-07-01"
+      },
+      "diff": 30,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "telecom"
+      ],
+      "source": [
+        "Telecom"
+      ]
+    },
+    {
+      "rank": 167,
+      "uri": "michael-sabel",
+      "name": "Michael Sabel",
+      "gender": "m",
+      "age": 58,
+      "networth": 14685.789,
+      "change": {
+        "value": -649.64,
+        "pct": -4.236,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "new",
+      "citizenship": "us",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "oil & gas"
+      ]
+    },
+    {
+      "rank": 167,
+      "uri": "robert-pender",
+      "name": "Robert Pender",
+      "gender": "m",
+      "age": 72,
+      "networth": 14685.789,
+      "change": {
+        "value": -649.64,
+        "pct": -4.236,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "new",
+      "citizenship": "us",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "oil & gas"
+      ]
+    },
+    {
+      "rank": 169,
+      "uri": "arthur-dantchik",
+      "name": "Arthur Dantchik",
+      "gender": "m",
+      "age": 67,
+      "networth": 14646,
+      "change": null,
+      "diff": 14,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Trading",
+        "investments"
+      ]
+    },
+    {
+      "rank": 170,
+      "uri": "henry-kravis",
+      "name": "Henry Kravis",
+      "gender": "m",
+      "age": 81,
+      "networth": 14605.229,
+      "change": {
+        "value": -44.696,
+        "pct": -0.305,
+        "date": "2025-07-01"
+      },
+      "diff": -39,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Private equity"
+      ]
+    },
+    {
+      "rank": 171,
+      "uri": "charlene-de-carvalho-heineken",
+      "name": "Charlene de Carvalho-Heineken & family",
+      "gender": "f",
+      "age": 71,
+      "networth": 14570.779,
+      "change": {
+        "value": 181.104,
+        "pct": 1.259,
+        "date": "2025-07-01"
+      },
+      "diff": 30,
+      "flag": "up",
+      "citizenship": "nl",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Heineken"
+      ]
+    },
+    {
+      "rank": 172,
+      "uri": "andrew-forrest",
+      "name": "Andrew Forrest & family",
+      "gender": "m",
+      "age": 63,
+      "networth": 14562.605,
+      "change": {
+        "value": 89.518,
+        "pct": 0.619,
+        "date": "2025-07-01"
+      },
+      "diff": -34,
+      "flag": "down",
+      "citizenship": "au",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Mining"
+      ]
+    },
+    {
+      "rank": 173,
+      "uri": "johann-rupert",
+      "name": "Johann Rupert & family",
+      "gender": "m",
+      "age": 75,
+      "networth": 14501.821,
+      "change": {
+        "value": 280.574,
+        "pct": 1.973,
+        "date": "2025-07-01"
+      },
+      "diff": 29,
+      "flag": "up",
+      "citizenship": "za",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Luxury goods"
+      ]
+    },
+    {
+      "rank": 174,
+      "uri": "john-doerr",
+      "name": "John Doerr",
+      "gender": "m",
+      "age": 74,
+      "networth": 14462.613,
+      "change": {
+        "value": -5.359,
+        "pct": -0.037,
+        "date": "2025-07-01"
+      },
+      "diff": -26,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Venture capital"
+      ]
+    },
+    {
+      "rank": 175,
+      "uri": "laurene-powell-jobs",
+      "name": "Laurene Powell Jobs",
+      "gender": "f",
+      "age": 61,
+      "networth": 14429.311,
+      "change": {
+        "value": 104.237,
+        "pct": 0.728,
+        "date": "2025-07-01"
+      },
+      "diff": -48,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Apple",
+        "Disney"
+      ]
+    },
+    {
+      "rank": 176,
+      "uri": "israel-englander",
+      "name": "Israel Englander",
+      "gender": "m",
+      "age": 76,
+      "networth": 14167.8,
+      "change": null,
+      "diff": -19,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Hedge funds"
+      ]
+    },
+    {
+      "rank": 177,
+      "uri": "dang-yanbao",
+      "name": "Dang Yanbao",
+      "gender": "m",
+      "age": 52,
+      "networth": 14084.153,
+      "change": {
+        "value": 41.017,
+        "pct": 0.292,
+        "date": "2025-07-01"
+      },
+      "diff": -22,
+      "flag": "down",
+      "citizenship": "cn",
+      "industry": [
+        "metals-mining"
+      ],
+      "source": [
+        "Coal"
+      ]
+    },
+    {
+      "rank": 178,
+      "uri": "john-tu",
+      "name": "John Tu",
+      "gender": "m",
+      "age": 83,
+      "networth": 14076.628,
+      "change": {
+        "value": -2891.038,
+        "pct": -17.039,
+        "date": "2025-07-01"
+      },
+      "diff": -53,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Computer hardware"
+      ]
+    },
+    {
+      "rank": 179,
+      "uri": "david-sun",
+      "name": "David Sun",
+      "gender": "m",
+      "age": 73,
+      "networth": 14052.838,
+      "change": {
+        "value": -2889.557,
+        "pct": -17.055,
+        "date": "2025-07-01"
+      },
+      "diff": -53,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Computer hardware"
+      ]
+    },
+    {
+      "rank": 180,
+      "uri": "friedhelm-loh",
+      "name": "Friedhelm Loh",
+      "gender": "m",
+      "age": 78,
+      "networth": 14026.059,
+      "change": {
+        "value": 24.653,
+        "pct": 0.176,
+        "date": "2025-07-01"
+      },
+      "diff": 70,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Manufacturing"
+      ]
+    },
+    {
+      "rank": 181,
+      "uri": "brian-armstrong",
+      "name": "Brian Armstrong",
+      "gender": "m",
+      "age": 42,
+      "networth": 14009.153,
+      "change": {
+        "value": -616.147,
+        "pct": -4.213,
+        "date": "2025-07-01"
+      },
+      "diff": 46,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Cryptocurrency"
+      ]
+    },
+    {
+      "rank": 182,
+      "uri": "ray-dalio",
+      "name": "Ray Dalio",
+      "gender": "m",
+      "age": 75,
+      "networth": 13996.47,
+      "change": null,
+      "diff": -23,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Hedge funds"
+      ]
+    },
+    {
+      "rank": 183,
+      "uri": "kwong-siu-hing",
+      "name": "Kwong Siu-hing",
+      "gender": "f",
+      "age": 95,
+      "networth": 13958.767,
+      "change": {
+        "value": -0.178,
+        "pct": -0.001,
+        "date": "2025-07-01"
+      },
+      "diff": -4,
+      "flag": "down",
+      "citizenship": "hk",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 184,
+      "uri": "michal-solowow",
+      "name": "Michal Solowow",
+      "gender": "m",
+      "age": 62,
+      "networth": 13949.636,
+      "change": {
+        "value": 23.737,
+        "pct": 0.17,
+        "date": "2025-07-01"
+      },
+      "diff": 286,
+      "flag": "up",
+      "citizenship": "pl",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Investments"
+      ]
+    },
+    {
+      "rank": 185,
+      "uri": "edward-johnson-iv",
+      "name": "Edward Johnson IV",
+      "gender": "m",
+      "age": 60,
+      "networth": 13945.798,
+      "change": {
+        "value": -20.273,
+        "pct": -0.145,
+        "date": "2025-07-01"
+      },
+      "diff": -29,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Fidelity"
+      ]
+    },
+    {
+      "rank": 186,
+      "uri": "barry-lam",
+      "name": "Barry Lam",
+      "gender": "m",
+      "age": 76,
+      "networth": 13942.872,
+      "change": {
+        "value": 90.251,
+        "pct": 0.652,
+        "date": "2025-07-01"
+      },
+      "diff": -11,
+      "flag": "down",
+      "citizenship": "tw",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Electronics"
+      ]
+    },
+    {
+      "rank": 187,
+      "uri": "riley-bechtel",
+      "name": "Riley Bechtel & family",
+      "gender": "m",
+      "age": 73,
+      "networth": 13675.196,
+      "change": {
+        "value": -11.377,
+        "pct": -0.083,
+        "date": "2025-07-01"
+      },
+      "diff": 934,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "construction-engineering"
+      ],
+      "source": [
+        "Engineering",
+        "construction"
+      ]
+    },
+    {
+      "rank": 188,
+      "uri": "peter-woo",
+      "name": "Peter Woo",
+      "gender": "m",
+      "age": 78,
+      "networth": 13662.47,
+      "change": {
+        "value": 6.193,
+        "pct": 0.045,
+        "date": "2025-07-01"
+      },
+      "diff": -15,
+      "flag": "down",
+      "citizenship": "hk",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 189,
+      "uri": "anders-holch-povlsen",
+      "name": "Anders Holch Povlsen",
+      "gender": "m",
+      "age": 52,
+      "networth": 13660.521,
+      "change": {
+        "value": 55.876,
+        "pct": 0.411,
+        "date": "2025-07-01"
+      },
+      "diff": -8,
+      "flag": "down",
+      "citizenship": "dk",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Fashion retail"
+      ]
+    },
+    {
+      "rank": 190,
+      "uri": "robert-duggan",
+      "name": "Robert Duggan",
+      "gender": "m",
+      "age": 81,
+      "networth": 13651.567,
+      "change": {
+        "value": -41.595,
+        "pct": -0.304,
+        "date": "2025-07-01"
+      },
+      "diff": 4,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 191,
+      "uri": "joseph-lau",
+      "name": "Joseph Lau",
+      "gender": "m",
+      "age": 73,
+      "networth": 13587.812,
+      "change": {
+        "value": -0.241,
+        "pct": -0.002,
+        "date": "2025-07-01"
+      },
+      "diff": -21,
+      "flag": "down",
+      "citizenship": "hk",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 192,
+      "uri": "david-reuben",
+      "name": "David Reuben",
+      "gender": "m",
+      "age": 86,
+      "networth": 13518.519,
+      "change": {
+        "value": -10.676,
+        "pct": -0.079,
+        "date": "2025-07-01"
+      },
+      "diff": 91,
+      "flag": "up",
+      "citizenship": "gb",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Investments",
+        "real estate"
+      ]
+    },
+    {
+      "rank": 192,
+      "uri": "simon-reuben",
+      "name": "Simon Reuben",
+      "gender": "m",
+      "age": 84,
+      "networth": 13518.519,
+      "change": {
+        "value": -10.676,
+        "pct": -0.079,
+        "date": "2025-07-01"
+      },
+      "diff": 91,
+      "flag": "up",
+      "citizenship": "gb",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Real estate",
+        "investments"
+      ]
+    },
+    {
+      "rank": 194,
+      "uri": "mike-cannon-brookes",
+      "name": "Mike Cannon-Brookes",
+      "gender": "m",
+      "age": 45,
+      "networth": 13390.423,
+      "change": {
+        "value": 234.613,
+        "pct": 1.783,
+        "date": "2025-07-01"
+      },
+      "diff": -50,
+      "flag": "down",
+      "citizenship": "au",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Software"
+      ]
+    },
+    {
+      "rank": 195,
+      "uri": "david-velez",
+      "name": "David Velez & family",
+      "gender": "m",
+      "age": 43,
+      "networth": 13332.169,
+      "change": {
+        "value": -74.988,
+        "pct": -0.559,
+        "date": "2025-07-01"
+      },
+      "diff": 54,
+      "flag": "up",
+      "citizenship": "co",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Fintech"
+      ]
+    },
+    {
+      "rank": 196,
+      "uri": "david-duffield",
+      "name": "David Duffield",
+      "gender": "m",
+      "age": 84,
+      "networth": 13294.149,
+      "change": {
+        "value": -33.471,
+        "pct": -0.251,
+        "date": "2025-07-01"
+      },
+      "diff": -38,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Business software"
+      ]
+    },
+    {
+      "rank": 197,
+      "uri": "antonia-axson-johnson",
+      "name": "Antonia Ax:son Johnson & family",
+      "gender": "f",
+      "age": 81,
+      "networth": 13272.981,
+      "change": {
+        "value": -11.939,
+        "pct": -0.09,
+        "date": "2025-07-01"
+      },
+      "diff": 119,
+      "flag": "up",
+      "citizenship": "se",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 198,
+      "uri": "shahid-khan",
+      "name": "Shahid Khan",
+      "gender": "m",
+      "age": 74,
+      "networth": 13225.263,
+      "change": {
+        "value": -2.321,
+        "pct": -0.018,
+        "date": "2025-07-01"
+      },
+      "diff": -31,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Auto parts"
+      ]
+    },
+    {
+      "rank": 199,
+      "uri": "goh-cheng-liang",
+      "name": "Goh Cheng Liang",
+      "gender": "m",
+      "age": 98,
+      "networth": 13205.93,
+      "change": {
+        "value": -59.005,
+        "pct": -0.445,
+        "date": "2025-07-01"
+      },
+      "diff": 6,
+      "flag": "up",
+      "citizenship": "sg",
+      "industry": [
+        "manufacturing"
+      ],
+      "source": [
+        "Paints"
+      ]
+    },
+    {
+      "rank": 200,
+      "uri": "ann-walton-kroenke",
+      "name": "Ann Walton Kroenke",
+      "gender": "f",
+      "age": 76,
+      "networth": 13170.708,
+      "change": {
+        "value": 36.863,
+        "pct": 0.281,
+        "date": "2025-07-01"
+      },
+      "diff": -23,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Walmart"
+      ]
+    },
+    {
+      "rank": 201,
+      "uri": "xu-gaoming",
+      "name": "Xu Gaoming",
+      "gender": "m",
+      "age": 60,
+      "networth": 13143.036,
+      "change": {
+        "value": -0.167,
+        "pct": -0.001,
+        "date": "2025-07-01"
+      },
+      "diff": 875,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Gold and jewelry"
+      ]
+    },
+    {
+      "rank": 202,
+      "uri": "scott-farquhar",
+      "name": "Scott Farquhar",
+      "gender": "m",
+      "age": 45,
+      "networth": 13054.096,
+      "change": {
+        "value": 227.942,
+        "pct": 1.777,
+        "date": "2025-07-01"
+      },
+      "diff": -52,
+      "flag": "down",
+      "citizenship": "au",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Software"
+      ]
+    },
+    {
+      "rank": 203,
+      "uri": "enrique-razon-jr",
+      "name": "Enrique Razon Jr.",
+      "gender": "m",
+      "age": 65,
+      "networth": 12997.87,
+      "change": {
+        "value": 96.275,
+        "pct": 0.746,
+        "date": "2025-07-01"
+      },
+      "diff": 11,
+      "flag": "up",
+      "citizenship": "ph",
+      "industry": [
+        "logistics"
+      ],
+      "source": [
+        "Ports"
+      ]
+    },
+    {
+      "rank": 204,
+      "uri": "ravi-jaipuria",
+      "name": "Ravi Jaipuria",
+      "gender": "m",
+      "age": 70,
+      "networth": 12939.015,
+      "change": {
+        "value": -170.954,
+        "pct": -1.304,
+        "date": "2025-07-01"
+      },
+      "diff": -94,
+      "flag": "down",
+      "citizenship": "in",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Soft drinks",
+        "fast food"
+      ]
+    },
+    {
+      "rank": 205,
+      "uri": "torstein-hagen",
+      "name": "Torstein Hagen",
+      "gender": "m",
+      "age": 82,
+      "networth": 12759.214,
+      "change": {
+        "value": 170.091,
+        "pct": 1.351,
+        "date": "2025-07-01"
+      },
+      "diff": 46,
+      "flag": "up",
+      "citizenship": "no",
+      "industry": [
+        "service"
+      ],
+      "source": [
+        "Cruises"
+      ]
+    },
+    {
+      "rank": 206,
+      "uri": "patrick-ryan",
+      "name": "Patrick Ryan",
+      "gender": "m",
+      "age": 88,
+      "networth": 12704.169,
+      "change": {
+        "value": -46.333,
+        "pct": -0.363,
+        "date": "2025-07-01"
+      },
+      "diff": -24,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Insurance"
+      ]
+    },
+    {
+      "rank": 207,
+      "uri": "zhu-yi",
+      "name": "Zhu Yi",
+      "gender": "m",
+      "age": 61,
+      "networth": 12627.31,
+      "change": {
+        "value": 251.966,
+        "pct": 2.036,
+        "date": "2025-07-01"
+      },
+      "diff": 149,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 208,
+      "uri": "li-xiting",
+      "name": "Li Xiting",
+      "gender": "m",
+      "age": 74,
+      "networth": 12613.11,
+      "change": {
+        "value": 88.01,
+        "pct": 0.703,
+        "date": "2025-07-01"
+      },
+      "diff": -40,
+      "flag": "down",
+      "citizenship": "sg",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Medical devices"
+      ]
+    },
+    {
+      "rank": 209,
+      "uri": "charles-schwab",
+      "name": "Charles Schwab",
+      "gender": "m",
+      "age": 87,
+      "networth": 12495.345,
+      "change": {
+        "value": -6.897,
+        "pct": -0.055,
+        "date": "2025-07-01"
+      },
+      "diff": 17,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Discount brokerage"
+      ]
+    },
+    {
+      "rank": 210,
+      "uri": "antony-ressler",
+      "name": "Antony Ressler",
+      "gender": "m",
+      "age": 64,
+      "networth": 12458.779,
+      "change": {
+        "value": 84.173,
+        "pct": 0.68,
+        "date": "2025-07-01"
+      },
+      "diff": -34,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Finance"
+      ]
+    },
+    {
+      "rank": 211,
+      "uri": "andrew-beal",
+      "name": "Andrew Beal",
+      "gender": "m",
+      "age": 72,
+      "networth": 12386.24,
+      "change": {
+        "value": 12.635,
+        "pct": 0.102,
+        "date": "2025-07-01"
+      },
+      "diff": -31,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Banks",
+        "real estate"
+      ]
+    },
+    {
+      "rank": 212,
+      "uri": "adam-foroughi",
+      "name": "Adam Foroughi",
+      "gender": "m",
+      "age": 45,
+      "networth": 12318.04,
+      "change": {
+        "value": -486.104,
+        "pct": -3.796,
+        "date": "2025-07-01"
+      },
+      "diff": 52,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "marketing software",
+        "mobile games"
+      ]
+    },
+    {
+      "rank": 213,
+      "uri": "robert-kuok",
+      "name": "Robert Kuok",
+      "gender": "m",
+      "age": 101,
+      "networth": 12296.018,
+      "change": {
+        "value": 32.123,
+        "pct": 0.262,
+        "date": "2025-07-01"
+      },
+      "diff": -15,
+      "flag": "down",
+      "citizenship": "my",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Palm oil",
+        "shipping",
+        "property"
+      ]
+    },
+    {
+      "rank": 214,
+      "uri": "qi-shi",
+      "name": "Qi Shi & family",
+      "gender": "m",
+      "age": 55,
+      "networth": 12103.209,
+      "change": {
+        "value": -118.423,
+        "pct": -0.969,
+        "date": "2025-07-01"
+      },
+      "diff": -49,
+      "flag": "down",
+      "citizenship": "cn",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Financial information"
+      ]
+    },
+    {
+      "rank": 215,
+      "uri": "xavier-niel",
+      "name": "Xavier Niel & family",
+      "gender": "m",
+      "age": 57,
+      "networth": 12058.412,
+      "change": {
+        "value": 32.565,
+        "pct": 0.271,
+        "date": "2025-07-01"
+      },
+      "diff": 40,
+      "flag": "up",
+      "citizenship": "fr",
+      "industry": [
+        "telecom"
+      ],
+      "source": [
+        "Internet",
+        "telecom"
+      ]
+    },
+    {
+      "rank": 216,
+      "uri": "georg-schaeffler",
+      "name": "Georg Schaeffler",
+      "gender": "m",
+      "age": 60,
+      "networth": 12032.67,
+      "change": {
+        "value": 2165.189,
+        "pct": 21.943,
+        "date": "2025-07-01"
+      },
+      "diff": 77,
+      "flag": "up",
+      "citizenship": "de",
+      "industry": [
+        "automotive"
+      ],
+      "source": [
+        "Auto parts"
+      ]
+    },
+    {
+      "rank": 217,
+      "uri": "j-christopher-reyes",
+      "name": "J. Christopher Reyes",
+      "gender": "m",
+      "age": 71,
+      "networth": 11968,
+      "change": null,
+      "diff": -28,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Food distribution"
+      ]
+    },
+    {
+      "rank": 217,
+      "uri": "jude-reyes",
+      "name": "Jude Reyes",
+      "gender": "m",
+      "age": 69,
+      "networth": 11968,
+      "change": null,
+      "diff": -28,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Food distribution"
+      ]
+    },
+    {
+      "rank": 219,
+      "uri": "elizabeth-johnson",
+      "name": "Elizabeth Johnson",
+      "gender": "f",
+      "age": 62,
+      "networth": 11953.598,
+      "change": {
+        "value": -20.273,
+        "pct": -0.169,
+        "date": "2025-07-01"
+      },
+      "diff": -33,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Fidelity"
+      ]
+    },
+    {
+      "rank": 220,
+      "uri": "azim-premji",
+      "name": "Azim Premji",
+      "gender": "m",
+      "age": 79,
+      "networth": 11946.969,
+      "change": {
+        "value": -42.673,
+        "pct": -0.356,
+        "date": "2025-07-01"
+      },
+      "diff": -36,
+      "flag": "down",
+      "citizenship": "in",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Software services"
+      ]
+    },
+    {
+      "rank": 221,
+      "uri": "james-goodnight",
+      "name": "James Goodnight",
+      "gender": "m",
+      "age": 82,
+      "networth": 11929.525,
+      "change": {
+        "value": 118.678,
+        "pct": 1.005,
+        "date": "2025-07-01"
+      },
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Software"
+      ]
+    },
+    {
+      "rank": 222,
+      "uri": "mangal-prabhat-lodha",
+      "name": "Mangal Prabhat Lodha",
+      "gender": "m",
+      "age": 69,
+      "networth": 11910.81,
+      "change": {
+        "value": 16.179,
+        "pct": 0.136,
+        "date": "2025-07-01"
+      },
+      "diff": -29,
+      "flag": "down",
+      "citizenship": "in",
+      "industry": [
+        "real-estate"
+      ],
+      "source": [
+        "Real estate"
+      ]
+    },
+    {
+      "rank": 223,
+      "uri": "jim-pattison",
+      "name": "Jim Pattison",
+      "gender": "m",
+      "age": 96,
+      "networth": 11897.369,
+      "change": {
+        "value": 11.603,
+        "pct": 0.098,
+        "date": "2025-07-01"
+      },
+      "diff": 95,
+      "flag": "up",
+      "citizenship": "ca",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 224,
+      "uri": "giorgio-armani",
+      "name": "Giorgio Armani",
+      "gender": "m",
+      "age": 90,
+      "networth": 11891.891,
+      "change": {
+        "value": 68.01,
+        "pct": 0.575,
+        "date": "2025-07-01"
+      },
+      "diff": -33,
+      "flag": "down",
+      "citizenship": "it",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Luxury goods"
+      ]
+    },
+    {
+      "rank": 225,
+      "uri": "alexander-karp",
+      "name": "Alexander Karp",
+      "gender": "m",
+      "age": 57,
+      "networth": 11828.15,
+      "change": {
+        "value": -428.076,
+        "pct": -3.493,
+        "date": "2025-07-01"
+      },
+      "diff": 175,
+      "flag": "up",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Software firm"
+      ]
+    },
+    {
+      "rank": 226,
+      "uri": "robert-kraft",
+      "name": "Robert Kraft",
+      "gender": "m",
+      "age": 84,
+      "networth": 11816.274,
+      "change": null,
+      "diff": -31,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "sports"
+      ],
+      "source": [
+        "Manufacturing",
+        "New England Patriots"
+      ]
+    },
+    {
+      "rank": 227,
+      "uri": "georg-stumpf",
+      "name": "Georg Stumpf",
+      "gender": "m",
+      "age": 52,
+      "networth": 11786.533,
+      "change": {
+        "value": 21.438,
+        "pct": 0.182,
+        "date": "2025-07-01"
+      },
+      "diff": -53,
+      "flag": "down",
+      "citizenship": "at",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Real estate",
+        "construction"
+      ]
+    },
+    {
+      "rank": 228,
+      "uri": "yu-yong",
+      "name": "Yu Yong",
+      "gender": "m",
+      "age": 64,
+      "networth": 11773.074,
+      "change": {
+        "value": 74.966,
+        "pct": 0.641,
+        "date": "2025-07-01"
+      },
+      "diff": 11,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Mining"
+      ]
+    },
+    {
+      "rank": 229,
+      "uri": "terry-gou",
+      "name": "Terry Gou",
+      "gender": "m",
+      "age": 74,
+      "networth": 11702.261,
+      "change": {
+        "value": 118.404,
+        "pct": 1.022,
+        "date": "2025-07-01"
+      },
+      "diff": -20,
+      "flag": "down",
+      "citizenship": "tw",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "Electronics"
+      ]
+    },
+    {
+      "rank": 230,
+      "uri": "andreas-struengmann",
+      "name": "Andreas Struengmann & family",
+      "gender": "m",
+      "age": 75,
+      "networth": 11625.586,
+      "change": {
+        "value": 62.599,
+        "pct": 0.541,
+        "date": "2025-07-01"
+      },
+      "diff": -19,
+      "flag": "down",
+      "citizenship": "de",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 230,
+      "uri": "thomas-struengmann",
+      "name": "Thomas Struengmann & family",
+      "gender": "m",
+      "age": 75,
+      "networth": 11625.586,
+      "change": {
+        "value": 62.599,
+        "pct": 0.541,
+        "date": "2025-07-01"
+      },
+      "diff": -19,
+      "flag": "down",
+      "citizenship": "de",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 232,
+      "uri": "ralph-lauren",
+      "name": "Ralph Lauren",
+      "gender": "m",
+      "age": 85,
+      "networth": 11611,
+      "change": {
+        "value": -48.735,
+        "pct": -0.418,
+        "date": "2025-07-01"
+      },
+      "diff": -3,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "fashion-retail"
+      ],
+      "source": [
+        "Apparel"
+      ]
+    },
+    {
+      "rank": 233,
+      "uri": "ernesto-bertarelli",
+      "name": "Ernesto Bertarelli",
+      "gender": "m",
+      "age": 59,
+      "networth": 11602.656,
+      "change": {
+        "value": 6.448,
+        "pct": 0.056,
+        "date": "2025-07-01"
+      },
+      "diff": -27,
+      "flag": "down",
+      "citizenship": "ch",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Biotech",
+        "investments"
+      ]
+    },
+    {
+      "rank": 234,
+      "uri": "david-steward",
+      "name": "David Steward",
+      "gender": "m",
+      "age": 74,
+      "networth": 11394.09,
+      "change": null,
+      "diff": -34,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "IT provider"
+      ]
+    },
+    {
+      "rank": 235,
+      "uri": "sarath-ratanavadi",
+      "name": "Sarath Ratanavadi",
+      "gender": "m",
+      "age": 59,
+      "networth": 11320.113,
+      "change": {
+        "value": 449.64,
+        "pct": 4.136,
+        "date": "2025-07-01"
+      },
+      "diff": -90,
+      "flag": "down",
+      "citizenship": "th",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Energy"
+      ]
+    },
+    {
+      "rank": 236,
+      "uri": "carl-bennet",
+      "name": "Carl Bennet",
+      "gender": "m",
+      "age": 73,
+      "networth": 11283.642,
+      "change": {
+        "value": -0.677,
+        "pct": -0.006,
+        "date": "2025-07-01"
+      },
+      "diff": 101,
+      "flag": "up",
+      "citizenship": "se",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Investments"
+      ]
+    },
+    {
+      "rank": 237,
+      "uri": "alejandro-bailleres-gual",
+      "name": "Alejandro Baillères Gual & family",
+      "gender": "m",
+      "age": 64,
+      "networth": 11256.047,
+      "change": {
+        "value": -60.319,
+        "pct": -0.533,
+        "date": "2025-07-01"
+      },
+      "diff": 133,
+      "flag": "up",
+      "citizenship": "mx",
+      "industry": [
+        "diversified"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 238,
+      "uri": "taylor-thomson",
+      "name": "Taylor Thomson",
+      "gender": "f",
+      "age": null,
+      "networth": 11244.234,
+      "change": {
+        "value": 23.778,
+        "pct": 0.212,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "new",
+      "citizenship": "ca",
+      "industry": [
+        "media-entertainment"
+      ],
+      "source": [
+        "Thomson Reuters"
+      ]
+    },
+    {
+      "rank": 239,
+      "uri": "peter-thomson",
+      "name": "Peter Thomson",
+      "gender": "m",
+      "age": null,
+      "networth": 11244.209,
+      "change": {
+        "value": 23.778,
+        "pct": 0.212,
+        "date": "2025-07-01"
+      },
+      "diff": 0,
+      "flag": "new",
+      "citizenship": "ca",
+      "industry": [
+        "media-entertainment"
+      ],
+      "source": [
+        "Thomson Reuters"
+      ]
+    },
+    {
+      "rank": 240,
+      "uri": "david-thomson",
+      "name": "David Thomson",
+      "gender": "m",
+      "age": 68,
+      "networth": 11242.663,
+      "change": {
+        "value": 23.782,
+        "pct": 0.212,
+        "date": "2025-07-01"
+      },
+      "diff": -218,
+      "flag": "down",
+      "citizenship": "ca",
+      "industry": [
+        "media-entertainment"
+      ],
+      "source": [
+        "Media"
+      ]
+    },
+    {
+      "rank": 241,
+      "uri": "ken-fisher",
+      "name": "Ken Fisher",
+      "gender": "m",
+      "age": 74,
+      "networth": 11223,
+      "change": null,
+      "diff": -38,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "finance-investments"
+      ],
+      "source": [
+        "Money management"
+      ]
+    },
+    {
+      "rank": 242,
+      "uri": "murali-divi",
+      "name": "Murali Divi & family",
+      "gender": "m",
+      "age": 74,
+      "networth": 11222.528,
+      "change": {
+        "value": 27.549,
+        "pct": 0.246,
+        "date": "2025-07-01"
+      },
+      "diff": 10,
+      "flag": "up",
+      "citizenship": "in",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    },
+    {
+      "rank": 243,
+      "uri": "liu-yongxing",
+      "name": "Liu Yongxing",
+      "gender": "m",
+      "age": 77,
+      "networth": 11196.706,
+      "change": {
+        "value": 5.154,
+        "pct": 0.046,
+        "date": "2025-07-01"
+      },
+      "diff": -35,
+      "flag": "down",
+      "citizenship": "cn",
+      "industry": [
+        "service"
+      ],
+      "source": [
+        "Diversified"
+      ]
+    },
+    {
+      "rank": 244,
+      "uri": "richard-kinder",
+      "name": "Richard Kinder",
+      "gender": "m",
+      "age": 80,
+      "networth": 11171.275,
+      "change": {
+        "value": -275.083,
+        "pct": -2.403,
+        "date": "2025-07-01"
+      },
+      "diff": -27,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "energy"
+      ],
+      "source": [
+        "Pipelines"
+      ]
+    },
+    {
+      "rank": 245,
+      "uri": "joseph-tsai",
+      "name": "Joseph Tsai",
+      "gender": "m",
+      "age": 61,
+      "networth": 11088.556,
+      "change": {
+        "value": -0.046,
+        "pct": 0,
+        "date": "2025-07-01"
+      },
+      "diff": 1,
+      "flag": "up",
+      "citizenship": "ca",
+      "industry": [
+        "technology"
+      ],
+      "source": [
+        "E-commerce"
+      ]
+    },
+    {
+      "rank": 246,
+      "uri": "tilman-fertitta",
+      "name": "Tilman Fertitta",
+      "gender": "m",
+      "age": 68,
+      "networth": 11078.042,
+      "change": {
+        "value": 77.213,
+        "pct": 0.702,
+        "date": "2025-07-01"
+      },
+      "diff": -9,
+      "flag": "down",
+      "citizenship": "us",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Entertainment",
+        "Houston Rockets"
+      ]
+    },
+    {
+      "rank": 247,
+      "uri": "jorn-rausing",
+      "name": "Jorn Rausing",
+      "gender": "m",
+      "age": 65,
+      "networth": 11001.678,
+      "change": {
+        "value": 47.698,
+        "pct": 0.435,
+        "date": "2025-07-01"
+      },
+      "diff": 203,
+      "flag": "up",
+      "citizenship": "se",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Packaging"
+      ]
+    },
+    {
+      "rank": 247,
+      "uri": "kirsten-rausing",
+      "name": "Kirsten Rausing",
+      "gender": "f",
+      "age": 73,
+      "networth": 11001.678,
+      "change": {
+        "value": 47.698,
+        "pct": 0.435,
+        "date": "2025-07-01"
+      },
+      "diff": 203,
+      "flag": "up",
+      "citizenship": "se",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Packaging"
+      ]
+    },
+    {
+      "rank": 249,
+      "uri": "finn-rausing",
+      "name": "Finn Rausing",
+      "gender": "m",
+      "age": 70,
+      "networth": 10991.779,
+      "change": {
+        "value": 47.581,
+        "pct": 0.435,
+        "date": "2025-07-01"
+      },
+      "diff": 200,
+      "flag": "up",
+      "citizenship": "se",
+      "industry": [
+        "food-beverage"
+      ],
+      "source": [
+        "Packaging"
+      ]
+    },
+    {
+      "rank": 250,
+      "uri": "sun-piaoyang",
+      "name": "Sun Piaoyang",
+      "gender": "m",
+      "age": 66,
+      "networth": 10941.824,
+      "change": {
+        "value": 116.523,
+        "pct": 1.076,
+        "date": "2025-07-01"
+      },
+      "diff": 25,
+      "flag": "up",
+      "citizenship": "cn",
+      "industry": [
+        "healthcare"
+      ],
+      "source": [
+        "Pharmaceuticals"
+      ]
+    }
+  ]
+}
