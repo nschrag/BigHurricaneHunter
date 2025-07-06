@@ -71,7 +71,7 @@ func process_state_play(delta: float) -> void:
 		next_spawn_time = Time.get_ticks_msec() + spawn_rate * 1000
 		
 		var h: Hurricane = hurricane.instantiate()
-		h.configure($Map01)
+		h.configure($Map01, $Map01/HurricanPathZones/Spawn.get_rect(), $Map01/HurricanPathZones/Dest.get_rect())
 		
 func end_state_play() -> void:
 	reticule.reset_state()

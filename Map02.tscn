@@ -31,6 +31,24 @@ script = ExtResource("4_6k02l")
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Map01/Area2D"]
 polygon = PackedVector2Array(-236, 20, -223, -20, -255, -113, -236, -154, -182, -195, -127, -226, -142, -277, -94, -359, -18, -393, -26, -435, 51, -487, 72, -452, 215, -540, -962, -540, -959, -84, -860, 65, -778, 65, -753, 95, -759, 120, -727, 162, -569, 228, -523, 219, -475, 263, -385, 285, -342, 324, -341, 350, -247, 403, -252, 366, -296, 334, -296, 235, -399, 223, -358, 106, -440, 109, -468, 168, -553, 157, -592, 60, -567, -64, -486, -93, -437, -78, -304, -101, -271, -16)
 
+[node name="HurricanPathZones" type="Node2D" parent="Map01"]
+
+[node name="Spawn" type="Control" parent="Map01/HurricanPathZones"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 90.0
+offset_top = 58.0
+offset_right = 929.0
+offset_bottom = 328.0
+
+[node name="Dest" type="Control" parent="Map01/HurricanPathZones"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -614.0
+offset_top = -374.0
+offset_right = -255.0
+offset_bottom = -160.0
+
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Reticule" parent="." node_paths=PackedStringArray("hurricane_parent") instance=ExtResource("4_s03es")]
