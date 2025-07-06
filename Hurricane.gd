@@ -14,6 +14,17 @@ var draw_debug = false
 var debug_path: Line2D
 
 func configure(parent: Node2D) -> void:
+	var label: Label = $Panel/Label
+	label.text = " %s " % HurricaneNames.get_next_name()
+	var panel: Panel = $Panel
+	var num_spaces = label.text.count(" ")
+	var num_nonspace_chars = label.text.length() - num_spaces
+	panel.set_size(Vector2(10 + (num_nonspace_chars + num_spaces / 2.0) * 12, 24))
+	
+	
+	
+	
+	
 	var rect = parent.get_rect()
 	position = Vector2(
 		randf_range(rect.get_center().x, rect.end.x), 

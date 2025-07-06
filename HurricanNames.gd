@@ -2,7 +2,13 @@ extends Node
 
 class_name HurricaneNames
 
-var name_data: Dictionary
+static var names: Array[String]
+static var name_index = 0
+
+static func get_next_name() -> String:
+	var i = name_index
+	name_index = (name_index + 1) % names.size()
+	return names[i]
 
 static func load_name_data() -> void:
 	if !FileAccess.file_exists("user://Top250Billionaires.json"):
@@ -15,5 +21,9 @@ static func load_name_data() -> void:
 	var json = JSON.new()
 	json.parse(json_string)
 	
-	print(json.data["list"][0]["name"])
+	for entry in json.data["list"]:
+		names.append(entry["name"])
+		
+	names.shuffle()
+	print(names)
 	

@@ -38,14 +38,30 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_r6x41")
 
 [node name="Label" type="Label" parent="Panel"]
 layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-offset_bottom = 21.0
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -33.0
+offset_right = 33.0
 grow_horizontal = 2
+grow_vertical = 2
 theme = ExtResource("3_xk4fa")
 theme_override_colors/font_color = Color(0.0501299, 1.44392e-07, 0.417495, 1)
 theme_override_fonts/font = ExtResource("4_r6x41")
-text = "Bezos"
-horizontal_alignment = 1
+theme_override_font_sizes/font_size = 16
+text = "Bezos bezos"
 vertical_alignment = 1
 uppercase = true
+
+[node name="Panel" type="Panel" parent="Panel/Label"]
+visible = false
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_xk4fa")
+theme_override_styles/panel = SubResource("StyleBoxFlat_r6x41")
