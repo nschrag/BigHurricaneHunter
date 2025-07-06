@@ -9,7 +9,10 @@ var game_state = State.BOOT
 @export var hurricane: PackedScene
 @export var fire_effect: PackedScene
 @export var spawn_rate: float = 2
+@export var spawn_rate_increase_interval: float = 20
+var current_spawn_rate = spawn_rate
 var next_spawn_time = 0
+var next_spawn_rate_increase_time = spawn_rate_increase_interval * 1000
 
 func _ready() -> void:
 	HurricaneNames.load_name_data()
@@ -63,15 +66,25 @@ func begin_state_play() -> void:
 	$HighScoreDisplay.visible = false
 	$Map01/Area2D.damage = 0
 	game_timer.start_timer()
+	print("Start Play %d" % game_timer.duration)
 	reticule.show_text(true, true)
+	current_spawn_rate = spawn_rate
+	next_spawn_time = 0
+	next_spawn_rate_increase_time = spawn_rate_increase_interval * 1000
 			
 func process_state_play(delta: float) -> void:
 	reticule.process_input(delta, true)
-	if Time.get_ticks_msec() > next_spawn_time:
-		next_spawn_time = Time.get_ticks_msec() + spawn_rate * 1000
-		
+	if game_timer.duration > next_spawn_time:
+		next_spawn_time = game_timer.duration + current_spawn_rate * 1000
 		var h: Hurricane = hurricane.instantiate()
 		h.configure($Map01, $Map01/HurricanPathZones/Spawn.get_rect(), $Map01/HurricanPathZones/Dest.get_rect())
+	
+	if game_timer.duration > next_spawn_rate_increase_time:
+		current_spawn_rate *= 0.75
+		next_spawn_rate_increase_time = game_timer.duration + spawn_rate_increase_interval * 1000
+		print("Spawn Rate: %f" % spawn_rate)
+		
+	
 		
 func end_state_play() -> void:
 	reticule.reset_state()

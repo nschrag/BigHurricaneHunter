@@ -20,6 +20,7 @@ func _ready() -> void:
 var milliseconds_since_start: int
 func start_timer() -> void:
 	milliseconds_since_start = Time.get_ticks_msec()
+	duration = Time.get_ticks_msec() - milliseconds_since_start
 	set_process(true)
 
 var duration: int
@@ -30,4 +31,5 @@ func stop_timer() -> void:
 		set_process(false)
 	
 func _process(delta: float) -> void:
-	text = format_time(Time.get_ticks_msec() - milliseconds_since_start)
+	duration = Time.get_ticks_msec() - milliseconds_since_start
+	text = format_time(duration)
