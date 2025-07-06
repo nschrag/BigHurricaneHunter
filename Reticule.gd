@@ -95,10 +95,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		for h in hurricane_parent.get_children():
 			if h is Hurricane:
 				var distance = (target_pos - h.position).length()
-				if distance <= 10:
+				if distance <= h.get_eye_radius() + 3:
 					success = true
 					h.queue_free()
-					print("hit")
 		
 		if success:
 			hit_streak += 1

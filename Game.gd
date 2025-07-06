@@ -66,7 +66,6 @@ func begin_state_play() -> void:
 	$HighScoreDisplay.visible = false
 	$Map01/Area2D.damage = 0
 	game_timer.start_timer()
-	print("Start Play %d" % game_timer.duration)
 	reticule.show_text(true, true)
 	current_spawn_rate = spawn_rate
 	next_spawn_time = 0
@@ -82,7 +81,7 @@ func process_state_play(delta: float) -> void:
 	if game_timer.duration > next_spawn_rate_increase_time:
 		current_spawn_rate *= 0.75
 		next_spawn_rate_increase_time = game_timer.duration + spawn_rate_increase_interval * 1000
-		print("Spawn Rate: %f" % spawn_rate)
+		print("Spawn Rate: %f" % current_spawn_rate)
 		
 	
 		

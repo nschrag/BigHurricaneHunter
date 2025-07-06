@@ -49,6 +49,9 @@ func configure(parent: Node2D, spawn_rect: Rect2, dest_rect: Rect2) -> void:
 func get_dps() -> float:
 	return damage_per_second * $Sprite2D.scale.x * modulate.a
 	
+func get_eye_radius() -> float:
+	return 6 * $Sprite2D.scale.x
+	
 func _physics_process(delta: float) -> void:
 	var alpha = 1
 	if landfall:

@@ -53,7 +53,10 @@ offset_bottom = -160.0
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Reticule" parent="." node_paths=PackedStringArray("hurricane_parent") instance=ExtResource("4_s03es")]
+speed = 300
 hurricane_parent = NodePath("../Map01")
+max_charge_level = 5
+full_charge_time = 2.0
 
 [node name="DamageMeter" type="Node2D" parent="."]
 script = ExtResource("8_6k02l")
