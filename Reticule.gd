@@ -44,7 +44,9 @@ func _ready() -> void:
 		abs($Center/HHash1.position.x),
 		0 # full charge precision
 	]
-
+func is_fully_charged() -> bool:
+	return charge_level >= max_charge_level
+	
 func get_firing_radius() -> float:
 	return charge_level_radius[min(charge_level - 1, charge_level_radius.size() - 1)]
 	

@@ -98,13 +98,13 @@ scale = Vector2(4, 4)
 texture = ExtResource("12_q5vca")
 
 [node name="HoldAToStart" type="Label" parent="Title"]
-offset_left = 705.0
+offset_left = 695.0
 offset_top = 750.0
-offset_right = 893.0
+offset_right = 896.0
 offset_bottom = 780.0
 scale = Vector2(2, 2)
 theme = ExtResource("9_vv0lo")
-text = "Hold A to Start"
+text = "Hold 'A' to Play"
 label_settings = ExtResource("13_oxkmi")
 horizontal_alignment = 2
 script = ExtResource("14_fmjss")

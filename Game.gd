@@ -99,6 +99,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		if event.is_action_released("fire") && reticule.is_fully_charged():
 			goto_state(State.PLAY)
 		
+	if event.is_action_pressed("ui_accept"):
+		goto_state(State.TITLE)
+		
 	if event.is_action_pressed("ui_cancel"):
 		get_tree().quit()
 			

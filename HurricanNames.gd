@@ -25,5 +25,4 @@ static func load_name_data() -> void:
 		names.append(entry["name"])
 		
 	names.shuffle()
-	print(names)
 	
