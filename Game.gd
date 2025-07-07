@@ -65,6 +65,7 @@ func end_state_title() -> void:
 func begin_state_play() -> void:
 	$HighScoreDisplay.visible = false
 	$Map01/Area2D.damage = 0
+	$DamageMeter.reset_state()
 	game_timer.start_timer()
 	reticule.show_text(true, true)
 	current_spawn_rate = spawn_rate
