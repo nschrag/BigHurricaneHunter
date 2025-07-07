@@ -26,7 +26,7 @@ func _process(delta: float) -> void:
 		State.PLAY:
 			process_state_play(delta)
 		State.RESULTS:
-			pass
+			process_state_results(delta)
 			
 func goto_state(state: State) -> void:
 	if game_state == state:
@@ -105,16 +105,15 @@ func begin_state_results() -> void:
 		reticule.set_reticule_position(Vector2(270, 270))
 		reticule.show_text(false, true)
 		
+func process_state_results(delta: float) -> void:
+	reticule.process_input(delta, false)
+	
 func end_state_results() -> void:
 	for child in $Map01.get_children():
 		if child is Hurricane:
 			child.queue_free()
 	
 func _unhandled_input(event: InputEvent) -> void:
-	if game_state == State.TITLE:
-		if event.is_action_released("fire") && reticule.is_fully_charged():
-			goto_state(State.PLAY)
-		
 	if event.is_action_pressed("ui_accept"):
 		goto_state(State.TITLE)
 		
@@ -129,6 +128,9 @@ func _on_reticule_fire(target_pos: Vector2, fully_charged: bool) -> void:
 		State.PLAY:
 			var vfx = FireEffect.fetch_effect(fire_effect, $Map01)
 			vfx.play_vfx(target_pos)
+		State.RESULTS:
+			if fully_charged:
+				goto_state(State.TITLE)
 				
 func _on_max_damage_sustained() -> void:
 	goto_state(State.RESULTS)

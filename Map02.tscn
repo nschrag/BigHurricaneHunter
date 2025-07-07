@@ -132,5 +132,6 @@ script = ExtResource("14_fmjss")
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
 [connection signal="total_damage_changed" from="Map01/Area2D" to="DamageMeter" method="_on_total_damage_changed"]
 [connection signal="fire" from="Reticule" to="." method="_on_reticule_fire"]
+[connection signal="fire" from="Reticule" to="HighScoreDisplay" method="_on_reticule_fire"]
 [connection signal="max_damage_sustained" from="DamageMeter" to="." method="_on_max_damage_sustained"]
 [connection signal="high_score_entered" from="HighScoreDisplay" to="." method="_on_high_score_entered"]
