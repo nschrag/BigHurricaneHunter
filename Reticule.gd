@@ -2,7 +2,7 @@ extends Node2D
 
 class_name Reticule
 
-@export var speed = 300
+var speed = 300
 
 @export var hurricane_parent: Node2D
 
@@ -96,32 +96,41 @@ func random_in_circle(radius: float) -> Vector2:
 	var r = radius * sqrt(randf())
 	var theta = randf() * 2 * PI
 	return Vector2(r * cos(theta), r * sin(theta))
-	
+
+enum HitResult { HIT, CLOSE, MISS }
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire") && charge_level > 0:
 		var target_pos = Vector2(vertical.position.x, horizontal.position.y)
 		target_pos = target_pos + random_in_circle(get_firing_radius())
 		fire.emit(target_pos, charge_level >= max_charge_level)
 		
-		var success = false
+		var success = HitResult.MISS
 		for h in hurricane_parent.get_children():
 			if h is Hurricane:
 				var distance = (target_pos - h.position).length()
 				if distance <= h.get_eye_radius() + 3:
-					success = true
+					success = HitResult.HIT
 					h.queue_free()
+					break
+				elif distance <= h.get_storm_radius():
+					success = HitResult.CLOSE
+					h.waver()
+					break
 		
-		if success:
-			hit_streak += 1
-			if hit_streak > max_charge_level:
-				if randf() <= 0.5:
-					speed_bonus_level += 1
-					aim_speed_label.text = str(1 + speed_bonus_level * 0.05)
-				else:
-					charge_bonus_level += 1
-					charge_speed_label.text = str(1 + charge_bonus_level * 0.05)
-		else:
-			hit_streak = 0
+		match success:
+			HitResult.HIT:
+				hit_streak += 1
+				if hit_streak > max_charge_level:
+					if randf() <= 0.5:
+						speed_bonus_level += 1
+						aim_speed_label.text = str(1 + speed_bonus_level * 0.05)
+					else:
+						charge_bonus_level += 1
+						charge_speed_label.text = str(1 + charge_bonus_level * 0.05)
+			HitResult.CLOSE:
+				hit_streak = 0
+			HitResult.MISS:
+				hit_streak = 0
 		
 		# bonus starting charge level for hit streaks
 		charge_level = hit_streak

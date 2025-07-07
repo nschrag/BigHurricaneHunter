@@ -75,9 +75,12 @@ func begin_state_play() -> void:
 func process_state_play(delta: float) -> void:
 	reticule.process_input(delta, true)
 	if game_timer.duration > next_spawn_time:
+		var first = next_spawn_time == 0
 		next_spawn_time = game_timer.duration + current_spawn_rate * 1000
 		var h: Hurricane = hurricane.instantiate()
 		h.configure($Map01, $Map01/HurricanPathZones/Spawn.get_rect(), $Map01/HurricanPathZones/Dest.get_rect())
+		if first:
+			h.speed *= 0.5
 	
 	if game_timer.duration > next_spawn_rate_increase_time:
 		current_spawn_rate *= 0.75

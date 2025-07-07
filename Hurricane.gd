@@ -52,6 +52,13 @@ func get_dps() -> float:
 func get_eye_radius() -> float:
 	return 6 * $Sprite2D.scale.x
 	
+func get_storm_radius() -> float:
+	return 25 * $Sprite2D.scale.x
+
+func waver() -> void:
+	modulate.a *= 0.5
+	#distance_traveled -= 0.25 * speed
+	
 func _physics_process(delta: float) -> void:
 	var alpha = 1
 	if landfall:
