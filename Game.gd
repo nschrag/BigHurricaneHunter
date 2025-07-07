@@ -92,7 +92,9 @@ func process_state_play(delta: float) -> void:
 func end_state_play() -> void:
 	reticule.reset_state()
 
+var delay_process_results: int
 func begin_state_results() -> void:
+	delay_process_results = Time.get_ticks_msec() + 3000
 	game_timer.stop_timer()
 	var scores = $HighScoreDisplay
 	scores.visible = true
@@ -106,7 +108,8 @@ func begin_state_results() -> void:
 		reticule.show_text(false, true)
 		
 func process_state_results(delta: float) -> void:
-	reticule.process_input(delta, false)
+	if delay_process_results < Time.get_ticks_msec():
+		reticule.process_input(delta, false)
 	
 func end_state_results() -> void:
 	for child in $Map01.get_children():

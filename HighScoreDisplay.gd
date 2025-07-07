@@ -61,5 +61,6 @@ func update_name() -> void:
 	high_score_entered.emit()
 
 func _on_reticule_fire(target_pos: Vector2, fully_charged: bool) -> void:
-	for ui in get_children():
-		ui.save_name()
+	if fully_charged:
+		for ui in get_children():
+			ui.save_name()

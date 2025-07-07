@@ -2,7 +2,7 @@ extends Node
 
 class_name HurricaneNames
 
-static var names: Array[String]
+static var names: Array[String] = ["A", "B"]
 static var name_index = 0
 
 static func get_next_name() -> String:

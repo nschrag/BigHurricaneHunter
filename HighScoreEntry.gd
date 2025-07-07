@@ -15,6 +15,10 @@ func populate(rank: int, player_name: String, score: int) -> void:
 		$PlayerName.editable = true
 		$PlayerName.caret_force_displayed = true
 		$PlayerName.call_deferred("grab_focus")
+		if display.input_player_name.length() > 0:
+			var c = display.input_player_name[display.input_player_name.length() - 1]
+			current_char = chars.find(c)
+			display.input_player_name = display.input_player_name.substr(0, display.input_player_name.length() - 1)
 		update_text()
 		
 const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ."
@@ -62,7 +66,8 @@ func _input(event: InputEvent) -> void:
 
 func save_name() -> void:
 	if player_name_edit != null && player_name_edit.editable:
+		display.input_player_name = display.input_player_name + chars[current_char]
 		player_name_edit.editable = false
 		player_name_edit.caret_force_displayed = false
-		player_name_edit.text = display.input_player_name + chars[current_char]
+		player_name_edit.text = display.input_player_name
 		display.update_name()
