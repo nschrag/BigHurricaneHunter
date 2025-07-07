@@ -6,7 +6,7 @@ class_name HighScoreEntry
 var player_name_edit: LineEdit
 
 func populate(rank: int, player_name: String, score: int) -> void:
-	$Rank.text = str(rank)
+	$Rank.text = "%2d" % rank
 	$DateTime.text = GameTimer.format_time(score)
 	$PlayerName.text = player_name
 	player_name_edit = $PlayerName
