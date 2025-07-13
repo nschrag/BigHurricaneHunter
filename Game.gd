@@ -71,6 +71,8 @@ func begin_state_play() -> void:
 	current_spawn_rate = spawn_rate
 	next_spawn_time = 0
 	next_spawn_rate_increase_time = spawn_rate_increase_interval * 1000
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	#reticule.set_reticule_position(get_viewport().get_mouse_position())
 			
 func process_state_play(delta: float) -> void:
 	reticule.process_input(delta, true)

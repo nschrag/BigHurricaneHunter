@@ -31,6 +31,8 @@ var hit_streak: int = 0
 var speed_bonus_level: int = 0;
 var charge_bonus_level: int = 0;
 
+var mouse_target: Vector2
+
 func get_speed() -> float:
 	var s = speed * (1 + speed_bonus_level * 0.05)
 	if Input.is_action_pressed("fire"):
@@ -57,10 +59,35 @@ func is_fully_charged() -> bool:
 func get_firing_radius() -> float:
 	return charge_level_radius[min(charge_level - 1, charge_level_radius.size() - 1)]
 	
+func get_mouse_vector() -> Vector2:
+	var dif:Vector2 = get_global_mouse_position() - (center.position)
+	var distance = dif.length()
+	if distance <= 10:
+		return Vector2.ZERO
+	else:
+		return dif.normalized() * min(1, distance / 1500.0)
+	
 func process_input(delta: float, aim: bool) -> void:
 	if aim:
-		var input_vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
-		set_reticule_position(center.position + input_vector * get_speed() * delta)
+		if Input.get_connected_joypads().size() > 0:
+			var input_vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+			set_reticule_position(center.position + input_vector * get_speed() * delta)
+		else:
+			var dir = (mouse_target - center.position)
+			var distance = get_speed() * delta
+			if distance > dir.length():
+				set_reticule_position(mouse_target)
+			else:
+				set_reticule_position(center.position + dir.normalized() * distance)
+			
+			pass
+			#var dif:Vector2 = get_global_mouse_position() - center.position
+			var dif:Vector2 = Input.get_last_mouse_velocity().normalized()
+			var speed = min(1, dif.length() / 100) ** 2 * get_speed()
+			#var speed = get_speed()
+			set_reticule_position(center.position + dif * speed * delta)
+			#set_reticule_position(dif)
+			
 	
 	if Input.is_action_pressed("fire"):
 		charge += get_charge_rate() * delta
@@ -86,6 +113,7 @@ func reset_state() -> void:
 	charge_level_changed.emit(charge_level)
 	aim_speed_label.text = "1.00"
 	charge_speed_label.text = "1.00"
+	mouse_target = center.position
 	
 func show_text(show_aim_speed: bool, show_timer: bool) -> void:
 	aim_speed_label.get_parent().visible = show_aim_speed
@@ -99,6 +127,10 @@ func random_in_circle(radius: float) -> Vector2:
 
 enum HitResult { HIT, CLOSE, MISS }
 func _unhandled_input(event: InputEvent) -> void:
+	if event is InputEventMouseMotion:
+		var motion = event as InputEventMouseMotion
+		mouse_target += motion.relative
+		$MouseCursor.position = mouse_target
 	if event.is_action_released("fire") && charge_level > 0:
 		var target_pos = Vector2(vertical.position.x, horizontal.position.y)
 		target_pos = target_pos + random_in_circle(get_firing_radius())
