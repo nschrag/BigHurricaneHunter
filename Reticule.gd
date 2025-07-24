@@ -75,8 +75,9 @@ func process_input(delta: float, aim: bool) -> void:
 		else:
 			var dir = ($Center/MouseCursor.position)
 			var distance = get_speed() * delta
-			#if distance <= dir.length():
-			set_reticule_position(center.position + dir.normalized() * distance * (dir.length() / mouse_cursor_range))
+			var cursor_length = dir.length()
+			if cursor_length >= 10:
+				set_reticule_position(center.position + dir.normalized() * distance * (cursor_length / mouse_cursor_range))
 			
 			pass
 			#var dif:Vector2 = get_global_mouse_position() - center.position
@@ -131,8 +132,7 @@ func _input(event: InputEvent) -> void:
 			p = p.normalized() * mouse_cursor_range
 		$Center/MouseCursor.position = p
 		var cursor: MouseCursor = $Center/MouseLine
-		cursor.set_point_position(0, p.normalized() * 10)
-		cursor.set_point_position(1, p)
+		cursor.set_cursor_position(p)
 		
 		
 enum HitResult { HIT, CLOSE, MISS }
