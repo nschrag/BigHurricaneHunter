@@ -2,6 +2,7 @@ extends Node2D
 
 class_name Reticule
 
+const mouse_cursor_range = 80
 var speed = 300
 
 @export var hurricane_parent: Node2D
@@ -75,7 +76,7 @@ func process_input(delta: float, aim: bool) -> void:
 			var dir = ($Center/MouseCursor.position)
 			var distance = get_speed() * delta
 			#if distance <= dir.length():
-			set_reticule_position(center.position + dir.normalized() * distance * (dir.length() / 150))
+			set_reticule_position(center.position + dir.normalized() * distance * (dir.length() / mouse_cursor_range))
 			
 			pass
 			#var dif:Vector2 = get_global_mouse_position() - center.position
@@ -125,10 +126,14 @@ func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		var motion = event as InputEventMouseMotion
 		var p = $Center/MouseCursor.position
-		p += motion.screen_relative * 0.5
-		if p.length() > 150:
-			p = p.normalized() * 150
+		p += motion.screen_relative * 0.25
+		if p.length() > mouse_cursor_range:
+			p = p.normalized() * mouse_cursor_range
 		$Center/MouseCursor.position = p
+		var cursor: MouseCursor = $Center/MouseLine
+		cursor.set_point_position(0, p.normalized() * 10)
+		cursor.set_point_position(1, p)
+		
 		
 enum HitResult { HIT, CLOSE, MISS }
 func _unhandled_input(event: InputEvent) -> void:
