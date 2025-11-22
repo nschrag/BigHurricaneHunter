@@ -51,7 +51,9 @@ visible = false
 modulate = Color(0.521569, 0, 0, 1)
 texture = ExtResource("2_lob25")
 
-[node name="MouseLine" type="Line2D" parent="Center"]
+[node name="MouseLineRoot" type="Node2D" parent="Center"]
+
+[node name="MouseLine" type="Line2D" parent="Center/MouseLineRoot"]
 points = PackedVector2Array(0, 0, 0, 0)
 width = 25.0
 width_curve = SubResource("Curve_d7jy1")

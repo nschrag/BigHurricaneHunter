@@ -54,7 +54,7 @@ func goto_state(state: State) -> void:
 func begin_state_title() -> void:
 	$Title.visible = true
 	reticule.set_reticule_position(Vector2(270, 270))
-	reticule.show_text(false, true)
+	reticule.show_text(false, true, false)
 	
 func process_state_title(delta: float) -> void:
 	reticule.process_input(delta, false)
@@ -67,7 +67,7 @@ func begin_state_play() -> void:
 	$Map01/Area2D.damage = 0
 	$DamageMeter.reset_state()
 	game_timer.start_timer()
-	reticule.show_text(true, true)
+	reticule.show_text(true, true, true)
 	current_spawn_rate = spawn_rate
 	next_spawn_time = 0
 	next_spawn_rate_increase_time = spawn_rate_increase_interval * 1000
@@ -104,10 +104,10 @@ func begin_state_results() -> void:
 		var index = scores.insert_high_score(game_timer.duration)
 		var y_pos = scores.get_child(index).global_position.y + 40
 		reticule.set_reticule_position(Vector2(270, y_pos))
-		reticule.show_text(false, false)
+		reticule.show_text(false, false, false)
 	else:
 		reticule.set_reticule_position(Vector2(270, 270))
-		reticule.show_text(false, true)
+		reticule.show_text(false, true, false)
 		
 func process_state_results(delta: float) -> void:
 	if delay_process_results < Time.get_ticks_msec():

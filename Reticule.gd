@@ -17,6 +17,7 @@ var speed = 300
 @onready var aim_speed_label = $Center/AimSpeed/Value
 @onready var charge_speed_label = $Center/ChargeSpeed/Value
 @onready var timer_label = $Center/DateTime
+@onready var mouse_line = $Center/MouseLineRoot
 
 signal fire(target_pos:Vector2, fully_charged:bool)
 signal charge_level_changed(value: int)
@@ -113,10 +114,11 @@ func reset_state() -> void:
 	aim_speed_label.text = "1.00"
 	charge_speed_label.text = "1.00"
 	
-func show_text(show_aim_speed: bool, show_timer: bool) -> void:
+func show_text(show_aim_speed: bool, show_timer: bool, show_mouse_line: bool) -> void:
 	aim_speed_label.get_parent().visible = show_aim_speed
 	charge_speed_label.get_parent().visible = show_aim_speed
 	timer_label.visible = show_timer
+	mouse_line.visible = show_mouse_line
 
 func random_in_circle(radius: float) -> Vector2:
 	var r = radius * sqrt(randf())
@@ -132,7 +134,7 @@ func _input(event: InputEvent) -> void:
 		if p.length() > mouse_cursor_range:
 			p = p.normalized() * mouse_cursor_range
 		$Center/MouseCursor.position = p
-		var cursor: MouseCursor = $Center/MouseLine
+		var cursor: MouseCursor = $Center/MouseLineRoot/MouseLine
 		cursor.set_cursor_position(p)
 		
 	if event.is_action_released("fire") && charge_level > 0:
