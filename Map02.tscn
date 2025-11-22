@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://gv443d0syekp"]
+[gd_scene load_steps=16 format=3 uid="uid://gv443d0syekp"]
 
 [ext_resource type="Texture2D" uid="uid://b71mlvjnkm0w0" path="res://BigMap.png" id="1_wlo2k"]
 [ext_resource type="Script" uid="uid://b2l8d2i8athvi" path="res://Game.gd" id="2_acrtu"]
@@ -12,8 +12,17 @@
 [ext_resource type="FontFile" uid="uid://txf4nlc1aein" path="res://AlfaSlabOne-Regular.ttf" id="11_q5vca"]
 [ext_resource type="PackedScene" uid="uid://c0tx30da0bbm4" path="res://HighScoreEntryUI.tscn" id="11_vv0lo"]
 [ext_resource type="Texture2D" uid="uid://ch1gpe2krj4h" path="res://Hurricane.png" id="12_q5vca"]
-[ext_resource type="LabelSettings" uid="uid://b2smq1q877j2o" path="res://ReticuleLabel.tres" id="13_oxkmi"]
 [ext_resource type="Script" uid="uid://t0bct4d242mf" path="res://Blink.gd" id="14_fmjss"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_oxkmi"]
+font_size = 48
+font_color = Color(0.521569, 0, 0, 1)
+outline_size = 3
+outline_color = Color(0.521569, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_fmjss"]
+font_size = 100
+outline_size = 2
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("2_acrtu")
@@ -54,8 +63,6 @@ offset_bottom = -160.0
 
 [node name="Reticule" parent="." node_paths=PackedStringArray("hurricane_parent") instance=ExtResource("4_s03es")]
 hurricane_parent = NodePath("../Map01")
-max_charge_level = 5
-full_charge_time = 2.0
 
 [node name="DamageMeter" type="Node2D" parent="."]
 script = ExtResource("8_6k02l")
@@ -119,16 +126,29 @@ scale = Vector2(4, 4)
 texture = ExtResource("12_q5vca")
 
 [node name="HoldAToStart" type="Label" parent="Title"]
-offset_left = 695.0
-offset_top = 750.0
-offset_right = 896.0
-offset_bottom = 780.0
-scale = Vector2(2, 2)
+offset_left = 684.0
+offset_top = 734.0
+offset_right = 923.0
+offset_bottom = 764.0
 theme = ExtResource("9_vv0lo")
-text = "Hold 'A' to Play"
-label_settings = ExtResource("13_oxkmi")
+theme_override_font_sizes/font_size = 48
+text = "Charge Beam to Play"
+label_settings = SubResource("LabelSettings_oxkmi")
 horizontal_alignment = 2
 script = ExtResource("14_fmjss")
+
+[node name="ControlHints" type="Label" parent="Title"]
+offset_left = 858.0
+offset_top = 943.0
+offset_right = 1901.0
+offset_bottom = 1352.0
+scale = Vector2(0.25, 0.25)
+theme = ExtResource("9_vv0lo")
+text = "Hold to charge
+- Left mouse button
+- Joypad Face button
+- Space bar"
+label_settings = SubResource("LabelSettings_fmjss")
 
 [connection signal="body_entered" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Map01/Area2D" to="Map01/Area2D" method="_on_body_exited"]
