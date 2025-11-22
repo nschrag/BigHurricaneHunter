@@ -33,7 +33,8 @@ func _input(event: InputEvent) -> void:
 	if !$PlayerName.editable:
 		return
 	
-	if allow_input_at_time < Time.get_ticks_msec():	
+	if allow_input_at_time < Time.get_ticks_msec() \
+		&& display.input_player_name.length() < $PlayerName.max_length:
 		if event.is_action_pressed("ui_up"):
 			allow_input_at_time = Time.get_ticks_msec() + 250
 			current_char = (current_char + 1) % chars.length()
@@ -50,6 +51,13 @@ func _input(event: InputEvent) -> void:
 			allow_input_at_time = Time.get_ticks_msec() + 250
 			display.input_player_name = display.input_player_name.substr(0, display.input_player_name.length() - 1)
 			update_text()
+		if event is InputEventKey && event.is_pressed():
+			var key = event as InputEventKey
+			if Key.KEY_A <= key.keycode && key.keycode <= Key.KEY_Z:
+				allow_input_at_time = Time.get_ticks_msec() + 250
+				current_char = key.keycode - Key.KEY_A
+				display.input_player_name = display.input_player_name + chars[current_char]
+				update_text()
 	
 	if event.is_action_pressed("ui_text_backspace"):
 		display.input_player_name = display.input_player_name.substr(0, display.input_player_name.length() - 1)
