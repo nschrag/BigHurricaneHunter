@@ -123,6 +123,7 @@ func random_in_circle(radius: float) -> Vector2:
 	var theta = randf() * 2 * PI
 	return Vector2(r * cos(theta), r * sin(theta))
 
+enum HitResult { HIT, CLOSE, MISS }
 func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		var motion = event as InputEventMouseMotion
@@ -134,9 +135,6 @@ func _input(event: InputEvent) -> void:
 		var cursor: MouseCursor = $Center/MouseLine
 		cursor.set_cursor_position(p)
 		
-		
-enum HitResult { HIT, CLOSE, MISS }
-func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("fire") && charge_level > 0:
 		var target_pos = Vector2(vertical.position.x, horizontal.position.y)
 		target_pos = target_pos + random_in_circle(get_firing_radius())
