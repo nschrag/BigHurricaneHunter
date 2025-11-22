@@ -21,8 +21,8 @@ func populate(rank: int, player_name: String, score: int) -> void:
 			display.input_player_name = display.input_player_name.substr(0, display.input_player_name.length() - 1)
 		update_text()
 		
-const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ."
-var current_char = 0
+const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ. "
+var current_char = chars.length() - 1
 var allow_input_at_time = 0
 
 func update_text() -> void:
@@ -51,13 +51,13 @@ func _input(event: InputEvent) -> void:
 			allow_input_at_time = Time.get_ticks_msec() + 250
 			display.input_player_name = display.input_player_name.substr(0, display.input_player_name.length() - 1)
 			update_text()
-		if event is InputEventKey && event.is_pressed():
-			var key = event as InputEventKey
-			if Key.KEY_A <= key.keycode && key.keycode <= Key.KEY_Z:
-				allow_input_at_time = Time.get_ticks_msec() + 250
-				current_char = key.keycode - Key.KEY_A
-				display.input_player_name = display.input_player_name + chars[current_char]
-				update_text()
+			
+	if event is InputEventKey && event.is_pressed():
+		var key = event as InputEventKey
+		if Key.KEY_A <= key.keycode && key.keycode <= Key.KEY_Z:
+			current_char = 27
+			display.input_player_name = display.input_player_name + chars[key.keycode - Key.KEY_A]
+			update_text()
 	
 	if event.is_action_pressed("ui_text_backspace"):
 		display.input_player_name = display.input_player_name.substr(0, display.input_player_name.length() - 1)
