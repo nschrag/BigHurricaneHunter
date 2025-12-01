@@ -1,5 +1,11 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Krita backups
 *.png~
 *.kra~
+
+# Build folder except Godot ignore file
+/Builds/*
+!*/.gdignore
